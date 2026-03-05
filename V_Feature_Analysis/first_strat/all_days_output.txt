@@ -1,0 +1,1017 @@
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.247211              0.694822     -0.336947     -0.355791
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 140 → V_Feature_Analysis/daily_signals/trading_signals_day140.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.032342              0.393958     -0.099805     -0.082094
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 141 → V_Feature_Analysis/daily_signals/trading_signals_day141.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.121873              0.312819     -0.287932     -0.389596
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 142 → V_Feature_Analysis/daily_signals/trading_signals_day142.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0          0.2455              0.263823      0.783124       0.93055
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 143 → V_Feature_Analysis/daily_signals/trading_signals_day143.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.439092              0.767232     -0.962497     -0.572307
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 144 → V_Feature_Analysis/daily_signals/trading_signals_day144.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.105996              0.766623     -0.228582     -0.138263
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 145 → V_Feature_Analysis/daily_signals/trading_signals_day145.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.041356              0.480495      0.099297      0.086069
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 146 → V_Feature_Analysis/daily_signals/trading_signals_day146.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.560089              0.615378     -1.081484     -0.910154
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 147 → V_Feature_Analysis/daily_signals/trading_signals_day147.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.149501              0.611278       0.34535      0.244571
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 148 → V_Feature_Analysis/daily_signals/trading_signals_day148.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.907202              0.371463      1.492419      2.442239
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 149 → V_Feature_Analysis/daily_signals/trading_signals_day149.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.101571              0.275603     -0.332537     -0.368543
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 150 → V_Feature_Analysis/daily_signals/trading_signals_day150.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.001696              1.128969      0.006088      0.001503
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 151 → V_Feature_Analysis/daily_signals/trading_signals_day151.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.213396              0.249109      0.575409      0.856636
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 152 → V_Feature_Analysis/daily_signals/trading_signals_day152.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.706304              0.329944      1.595826      2.140679
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 153 → V_Feature_Analysis/daily_signals/trading_signals_day153.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.793773               0.31112      1.554644      2.551341
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 154 → V_Feature_Analysis/daily_signals/trading_signals_day154.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.020647              0.386606      0.058656      0.053406
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 155 → V_Feature_Analysis/daily_signals/trading_signals_day155.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.705178              0.207505      2.024077      3.398368
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 156 → V_Feature_Analysis/daily_signals/trading_signals_day156.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.031367               0.61246      -0.06627     -0.051215
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 157 → V_Feature_Analysis/daily_signals/trading_signals_day157.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        -0.01713              0.541309     -0.040146     -0.031646
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 158 → V_Feature_Analysis/daily_signals/trading_signals_day158.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.119924              0.533915     -0.218184     -0.224613
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 159 → V_Feature_Analysis/daily_signals/trading_signals_day159.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.174569              0.453549      0.344341      0.384897
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 160 → V_Feature_Analysis/daily_signals/trading_signals_day160.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.178139               0.77689      0.292618      0.229298
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 161 → V_Feature_Analysis/daily_signals/trading_signals_day161.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.091623              1.417908     -0.053595     -0.064618
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 162 → V_Feature_Analysis/daily_signals/trading_signals_day162.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.254116              0.736513     -0.408569     -0.345026
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 163 → V_Feature_Analysis/daily_signals/trading_signals_day163.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.221618              0.977103      -0.52314     -0.226811
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 164 → V_Feature_Analysis/daily_signals/trading_signals_day164.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.196248              0.174932      0.713804      1.121853
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 165 → V_Feature_Analysis/daily_signals/trading_signals_day165.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.454825              0.675444     -1.067517     -0.673372
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 166 → V_Feature_Analysis/daily_signals/trading_signals_day166.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.060564              0.526644     -0.071398        -0.115
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 167 → V_Feature_Analysis/daily_signals/trading_signals_day167.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.007145              0.828129      0.019182      0.008627
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 168 → V_Feature_Analysis/daily_signals/trading_signals_day168.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.532296              1.196221     -0.800551     -0.444981
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 169 → V_Feature_Analysis/daily_signals/trading_signals_day169.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        -0.77601              1.111824     -1.214305     -0.697961
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 170 → V_Feature_Analysis/daily_signals/trading_signals_day170.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.424429              0.307587      1.027535      1.379866
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 171 → V_Feature_Analysis/daily_signals/trading_signals_day171.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.348978               0.65894      0.417247      0.529605
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 172 → V_Feature_Analysis/daily_signals/trading_signals_day172.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.007954              0.897159      0.019769      0.008865
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 173 → V_Feature_Analysis/daily_signals/trading_signals_day173.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.794827              1.089116     -0.913014     -0.729791
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 174 → V_Feature_Analysis/daily_signals/trading_signals_day174.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.184626              0.312243      0.469788       0.59129
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 175 → V_Feature_Analysis/daily_signals/trading_signals_day175.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.189283              0.680394      -0.36968     -0.278196
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 176 → V_Feature_Analysis/daily_signals/trading_signals_day176.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.617038              0.814557     -1.080592     -0.757513
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 177 → V_Feature_Analysis/daily_signals/trading_signals_day177.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.171409              0.551009      0.346881      0.311082
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 178 → V_Feature_Analysis/daily_signals/trading_signals_day178.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.631426              0.690712      1.157923      0.914167
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 179 → V_Feature_Analysis/daily_signals/trading_signals_day179.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.100879              0.731201     -0.184157     -0.137963
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 180 → V_Feature_Analysis/daily_signals/trading_signals_day180.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.183842              0.704947      0.371337      0.260789
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 181 → V_Feature_Analysis/daily_signals/trading_signals_day181.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.804161              0.471567      0.966411      1.705296
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 182 → V_Feature_Analysis/daily_signals/trading_signals_day182.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.751195              0.399887      1.453334      1.878517
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 183 → V_Feature_Analysis/daily_signals/trading_signals_day183.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.283595              0.615214     -0.453804      -0.46097
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 184 → V_Feature_Analysis/daily_signals/trading_signals_day184.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.594139              0.213064      1.777687      2.788548
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 185 → V_Feature_Analysis/daily_signals/trading_signals_day185.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.181626              0.563768      0.240897      0.322165
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 186 → V_Feature_Analysis/daily_signals/trading_signals_day186.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        1.399305              0.719581      1.212249      1.944612
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 187 → V_Feature_Analysis/daily_signals/trading_signals_day187.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.695971              1.075613     -0.857096     -0.647045
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 188 → V_Feature_Analysis/daily_signals/trading_signals_day188.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.037206              0.401155       0.10313      0.092748
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 189 → V_Feature_Analysis/daily_signals/trading_signals_day189.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        1.129746              0.778514      1.261465      1.451158
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 190 → V_Feature_Analysis/daily_signals/trading_signals_day190.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.119503              0.310074      0.278139        0.3854
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 191 → V_Feature_Analysis/daily_signals/trading_signals_day191.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        -0.06176              0.490041     -0.196871     -0.126031
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 192 → V_Feature_Analysis/daily_signals/trading_signals_day192.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.770704              1.270781     -1.365852      -0.60648
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 193 → V_Feature_Analysis/daily_signals/trading_signals_day193.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.276128              0.344562     -0.677312     -0.801386
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 194 → V_Feature_Analysis/daily_signals/trading_signals_day194.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0           0.339              0.176033      1.101375      1.925773
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 195 → V_Feature_Analysis/daily_signals/trading_signals_day195.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.569446              1.003402     -1.043306     -0.567516
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 196 → V_Feature_Analysis/daily_signals/trading_signals_day196.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.599134              0.206957      1.707475      2.894963
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 197 → V_Feature_Analysis/daily_signals/trading_signals_day197.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.745187              1.163868     -1.010135     -0.640267
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 198 → V_Feature_Analysis/daily_signals/trading_signals_day198.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.042182              0.228948      0.100674      0.184244
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 199 → V_Feature_Analysis/daily_signals/trading_signals_day199.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.637648              0.764089     -1.200287     -0.834521
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 200 → V_Feature_Analysis/daily_signals/trading_signals_day200.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.486687              0.852306     -0.641641     -0.571024
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 201 → V_Feature_Analysis/daily_signals/trading_signals_day201.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.622967              0.402672      1.222011      1.547083
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 202 → V_Feature_Analysis/daily_signals/trading_signals_day202.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -1.135296              1.310764     -1.922288     -0.866133
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 203 → V_Feature_Analysis/daily_signals/trading_signals_day203.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.140547              0.403372     -0.438041     -0.348431
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 204 → V_Feature_Analysis/daily_signals/trading_signals_day204.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -1.206599              1.459112     -1.572913     -0.826941
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 205 → V_Feature_Analysis/daily_signals/trading_signals_day205.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.845225              1.943101     -0.716338     -0.434988
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 206 → V_Feature_Analysis/daily_signals/trading_signals_day206.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.799382              0.174102      2.334707      4.591459
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 207 → V_Feature_Analysis/daily_signals/trading_signals_day207.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        1.027731                0.2849      1.928824      3.607336
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 208 → V_Feature_Analysis/daily_signals/trading_signals_day208.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.514803              1.648268      0.372081       0.31233
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 209 → V_Feature_Analysis/daily_signals/trading_signals_day209.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.270636              0.360502      0.531731      0.750721
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 210 → V_Feature_Analysis/daily_signals/trading_signals_day210.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.194828              0.706967     -0.417616     -0.275583
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 211 → V_Feature_Analysis/daily_signals/trading_signals_day211.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.244876              0.731123     -0.576185     -0.334932
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 212 → V_Feature_Analysis/daily_signals/trading_signals_day212.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.581989              0.721601     -1.267837     -0.806524
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 213 → V_Feature_Analysis/daily_signals/trading_signals_day213.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.463152              0.589059     -0.860305     -0.786258
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 214 → V_Feature_Analysis/daily_signals/trading_signals_day214.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.112916              0.366813     -0.438286     -0.307831
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 215 → V_Feature_Analysis/daily_signals/trading_signals_day215.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.287843              0.404296      0.507821      0.711961
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 216 → V_Feature_Analysis/daily_signals/trading_signals_day216.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0         0.05833              0.210281      0.199647       0.27739
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 217 → V_Feature_Analysis/daily_signals/trading_signals_day217.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.239808               0.16952      0.780159      1.414634
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 218 → V_Feature_Analysis/daily_signals/trading_signals_day218.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        -0.34448               0.57695     -0.790668     -0.597071
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 219 → V_Feature_Analysis/daily_signals/trading_signals_day219.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.254902               0.44588       0.54129      0.571683
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 220 → V_Feature_Analysis/daily_signals/trading_signals_day220.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.029277              0.397762      -0.07607     -0.073604
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 221 → V_Feature_Analysis/daily_signals/trading_signals_day221.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.451561              0.737332     -0.757569     -0.612426
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 222 → V_Feature_Analysis/daily_signals/trading_signals_day222.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.316529              0.417058     -1.005646     -0.758956
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 223 → V_Feature_Analysis/daily_signals/trading_signals_day223.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.754259              0.209943      1.784434      3.592678
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 224 → V_Feature_Analysis/daily_signals/trading_signals_day224.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.482477              1.018391     -0.788381     -0.473764
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 225 → V_Feature_Analysis/daily_signals/trading_signals_day225.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.216724              0.294117      0.664254      0.736865
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 226 → V_Feature_Analysis/daily_signals/trading_signals_day226.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.186249              0.251326      0.411878      0.741067
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 227 → V_Feature_Analysis/daily_signals/trading_signals_day227.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.117891              0.958052     -0.180076     -0.123053
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 228 → V_Feature_Analysis/daily_signals/trading_signals_day228.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.048381              0.293091     -0.160529     -0.165073
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 229 → V_Feature_Analysis/daily_signals/trading_signals_day229.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.068519              0.294753     -0.249479      -0.23246
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 230 → V_Feature_Analysis/daily_signals/trading_signals_day230.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.480839              0.563535      0.835847      0.853254
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 231 → V_Feature_Analysis/daily_signals/trading_signals_day231.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.242606              0.353433      0.489742      0.686426
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 232 → V_Feature_Analysis/daily_signals/trading_signals_day232.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0           0.129              0.408185      0.184519      0.316034
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 233 → V_Feature_Analysis/daily_signals/trading_signals_day233.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.160552              0.304337      0.516087      0.527548
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 234 → V_Feature_Analysis/daily_signals/trading_signals_day234.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0          0.3044              0.400268      0.883754      0.760489
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 235 → V_Feature_Analysis/daily_signals/trading_signals_day235.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.053344              0.299381     -0.150545     -0.178181
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 236 → V_Feature_Analysis/daily_signals/trading_signals_day236.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.737127              0.883012     -1.073485     -0.834787
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 237 → V_Feature_Analysis/daily_signals/trading_signals_day237.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.487233              0.282902       1.05646      1.722269
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 238 → V_Feature_Analysis/daily_signals/trading_signals_day238.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.054631              0.386978     -0.168249     -0.141173
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 239 → V_Feature_Analysis/daily_signals/trading_signals_day239.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.447898              1.402901     -0.442437     -0.319265
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 240 → V_Feature_Analysis/daily_signals/trading_signals_day240.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.043561              1.018939     -0.074475     -0.042751
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 241 → V_Feature_Analysis/daily_signals/trading_signals_day241.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.510777              0.316972      1.347826      1.611428
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 242 → V_Feature_Analysis/daily_signals/trading_signals_day242.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.530474              0.577839       0.65453      0.918031
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 243 → V_Feature_Analysis/daily_signals/trading_signals_day243.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0         0.20826              0.637782      0.332624      0.326538
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 244 → V_Feature_Analysis/daily_signals/trading_signals_day244.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.016429              0.508102      0.038093      0.032334
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 245 → V_Feature_Analysis/daily_signals/trading_signals_day245.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.631502               0.24338       1.85038      2.594713
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 246 → V_Feature_Analysis/daily_signals/trading_signals_day246.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0       -0.048347              0.428827     -0.119705     -0.112743
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 247 → V_Feature_Analysis/daily_signals/trading_signals_day247.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.362738              0.360907      0.777098      1.005074
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 248 → V_Feature_Analysis/daily_signals/trading_signals_day248.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0             0.0               0.52288      0.002235           0.0
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 249 → V_Feature_Analysis/daily_signals/trading_signals_day249.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.366158              0.273184      0.958845      1.340337
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 250 → V_Feature_Analysis/daily_signals/trading_signals_day250.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.196362              0.266767      0.495024       0.73608
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+🚀 Running backtest for Day 251 → V_Feature_Analysis/daily_signals/trading_signals_day251.csv
+
+Step 5: Computing daily Sharpe and Calmar ratios...
+✓ Saved daily performance metrics → daily_performance_metrics.csv
+   Day  Daily_Return_%  Daily_Max_Drawdown_%  Daily_Sharpe  Daily_Calmar
+0    0        0.109658              0.248557      0.318112      0.441176
+Step 6: Generating interactive plots...
+✓ Interactive report saved to 'backtest_report.html'
+
+================================================================================
+✅ Completed 252 out of 252 backtests.
+🎯 All days processed successfully!
+================================================================================

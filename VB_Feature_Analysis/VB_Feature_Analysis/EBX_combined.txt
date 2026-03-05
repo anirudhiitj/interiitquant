@@ -1,0 +1,2122 @@
+====================================================================================================
+FEATURE CORRELATION ANALYSIS RESULTS
+====================================================================================================
+
+Analysis Date: 2025-10-21 01:42:54
+Data File: /data/quant14/EBX/combined.csv
+Total Rows: 11,706,714
+Max Lag Tested: 10
+
+====================================================================================================
+SUMMARY STATISTICS
+====================================================================================================
+Total features analyzed: 72
+Average valid points: 11,382,270 (97.23%)
+Features with |Pearson| > 0.5: 0
+Features with |Pearson| > 0.3: 0
+Features with |Pearson| > 0.1: 46
+Features with Granger causality: 40
+
+
+====================================================================================================
+DETAILED FEATURE REPORTS (in order of analysis)
+====================================================================================================
+
+
+----------------------------------------------------------------------------------------------------
+[1/72] FEATURE: VB1_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,474,292 (98.01%)
+  NaN Count:         232,422 (1.99%)
+
+CORRELATION METRICS:
+  Pearson:           -0.010734
+  Spearman:          -0.022575
+  Kendall:           -0.013499
+  Mutual Info:       0.006496
+
+LAGGED CORRELATION:
+  Best Lag:          +3 periods
+  Best Lag Corr:     -0.010766
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 3 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[2/72] FEATURE: VB1_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,689,825 (99.86%)
+  NaN Count:         16,889 (0.14%)
+
+CORRELATION METRICS:
+  Pearson:           -0.016792
+  Spearman:          -0.021086
+  Kendall:           -0.005918
+  Mutual Info:       0.006004
+
+LAGGED CORRELATION:
+  Best Lag:          -10 periods
+  Best Lag Corr:     -0.016855
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[3/72] FEATURE: VB1_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,691,221 (99.87%)
+  NaN Count:         15,493 (0.13%)
+
+CORRELATION METRICS:
+  Pearson:           -0.019077
+  Spearman:          -0.021150
+  Kendall:           -0.015433
+  Mutual Info:       0.004206
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.019203
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[4/72] FEATURE: VB1_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,676,013 (99.74%)
+  NaN Count:         30,701 (0.26%)
+
+CORRELATION METRICS:
+  Pearson:           -0.018947
+  Spearman:          -0.019597
+  Kendall:           -0.010725
+  Mutual Info:       0.003392
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.019129
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[5/72] FEATURE: VB1_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,660,785 (99.61%)
+  NaN Count:         45,929 (0.39%)
+
+CORRELATION METRICS:
+  Pearson:           -0.017975
+  Spearman:          -0.018700
+  Kendall:           -0.018520
+  Mutual Info:       0.005012
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.018120
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[6/72] FEATURE: VB1_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,645,514 (99.48%)
+  NaN Count:         61,200 (0.52%)
+
+CORRELATION METRICS:
+  Pearson:           -0.017411
+  Spearman:          -0.018707
+  Kendall:           -0.001313
+  Mutual Info:       0.003393
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.017556
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[7/72] FEATURE: VB1_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,553,714 (98.69%)
+  NaN Count:         153,000 (1.31%)
+
+CORRELATION METRICS:
+  Pearson:           -0.014303
+  Spearman:          -0.016404
+  Kendall:           +0.004377
+  Mutual Info:       0.009555
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.014475
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[8/72] FEATURE: VB1_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,400,714 (97.39%)
+  NaN Count:         306,000 (2.61%)
+
+CORRELATION METRICS:
+  Pearson:           -0.012193
+  Spearman:          -0.014634
+  Kendall:           -0.010482
+  Mutual Info:       0.026152
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.012302
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[9/72] FEATURE: VB1_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,247,714 (96.08%)
+  NaN Count:         459,000 (3.92%)
+
+CORRELATION METRICS:
+  Pearson:           -0.010465
+  Spearman:          -0.014198
+  Kendall:           -0.012725
+  Mutual Info:       0.033130
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     -0.010537
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[10/72] FEATURE: VB1_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,941,714 (93.47%)
+  NaN Count:         765,000 (6.53%)
+
+CORRELATION METRICS:
+  Pearson:           -0.010286
+  Spearman:          -0.014716
+  Kendall:           -0.005998
+  Mutual Info:       0.044884
+
+LAGGED CORRELATION:
+  Best Lag:          -10 periods
+  Best Lag Corr:     -0.010311
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[11/72] FEATURE: VB1_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,788,714 (92.16%)
+  NaN Count:         918,000 (7.84%)
+
+CORRELATION METRICS:
+  Pearson:           -0.009800
+  Spearman:          -0.014940
+  Kendall:           -0.009227
+  Mutual Info:       0.066058
+
+LAGGED CORRELATION:
+  Best Lag:          -10 periods
+  Best Lag Corr:     -0.009831
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[12/72] FEATURE: VB1_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      9,870,714 (84.32%)
+  NaN Count:         1,836,000 (15.68%)
+
+CORRELATION METRICS:
+  Pearson:           -0.007938
+  Spearman:          -0.024058
+  Kendall:           -0.022819
+  Mutual Info:       0.103931
+
+LAGGED CORRELATION:
+  Best Lag:          -10 periods
+  Best Lag Corr:     -0.007984
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[13/72] FEATURE: VB2_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,704,164 (99.98%)
+  NaN Count:         2,550 (0.02%)
+
+CORRELATION METRICS:
+  Pearson:           -0.098371
+  Spearman:          -0.159028
+  Kendall:           -0.112591
+  Mutual Info:       0.065897
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.098371
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[14/72] FEATURE: VB2_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,701,614 (99.96%)
+  NaN Count:         5,100 (0.04%)
+
+CORRELATION METRICS:
+  Pearson:           -0.109096
+  Spearman:          -0.181893
+  Kendall:           -0.124766
+  Mutual Info:       0.073319
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.109096
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[15/72] FEATURE: VB2_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,691,414 (99.87%)
+  NaN Count:         15,300 (0.13%)
+
+CORRELATION METRICS:
+  Pearson:           -0.119932
+  Spearman:          -0.205258
+  Kendall:           -0.142971
+  Mutual Info:       0.085423
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.119932
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[16/72] FEATURE: VB2_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,676,114 (99.74%)
+  NaN Count:         30,600 (0.26%)
+
+CORRELATION METRICS:
+  Pearson:           -0.124057
+  Spearman:          -0.213732
+  Kendall:           -0.142309
+  Mutual Info:       0.100881
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.124057
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[17/72] FEATURE: VB2_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,660,814 (99.61%)
+  NaN Count:         45,900 (0.39%)
+
+CORRELATION METRICS:
+  Pearson:           -0.125816
+  Spearman:          -0.217077
+  Kendall:           -0.144763
+  Mutual Info:       0.111581
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.125816
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[18/72] FEATURE: VB2_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,645,514 (99.48%)
+  NaN Count:         61,200 (0.52%)
+
+CORRELATION METRICS:
+  Pearson:           -0.126867
+  Spearman:          -0.219110
+  Kendall:           -0.153267
+  Mutual Info:       0.113032
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.126867
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[19/72] FEATURE: VB2_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,553,714 (98.69%)
+  NaN Count:         153,000 (1.31%)
+
+CORRELATION METRICS:
+  Pearson:           -0.129551
+  Spearman:          -0.223899
+  Kendall:           -0.145351
+  Mutual Info:       0.137421
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.129551
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[20/72] FEATURE: VB2_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,400,714 (97.39%)
+  NaN Count:         306,000 (2.61%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130769
+  Spearman:          -0.226816
+  Kendall:           -0.150023
+  Mutual Info:       0.158892
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130769
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[21/72] FEATURE: VB2_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,247,714 (96.08%)
+  NaN Count:         459,000 (3.92%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130712
+  Spearman:          -0.228267
+  Kendall:           -0.145471
+  Mutual Info:       0.193539
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130712
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[22/72] FEATURE: VB2_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,941,714 (93.47%)
+  NaN Count:         765,000 (6.53%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130715
+  Spearman:          -0.227768
+  Kendall:           -0.149382
+  Mutual Info:       0.209489
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130715
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[23/72] FEATURE: VB2_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,788,714 (92.16%)
+  NaN Count:         918,000 (7.84%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130623
+  Spearman:          -0.227199
+  Kendall:           -0.153323
+  Mutual Info:       0.223092
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130623
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[24/72] FEATURE: VB2_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      9,870,714 (84.32%)
+  NaN Count:         1,836,000 (15.68%)
+
+CORRELATION METRICS:
+  Pearson:           -0.135875
+  Spearman:          -0.223503
+  Kendall:           -0.163578
+  Mutual Info:       0.285861
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.135875
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[25/72] FEATURE: VB3_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,704,164 (99.98%)
+  NaN Count:         2,550 (0.02%)
+
+CORRELATION METRICS:
+  Pearson:           -0.104419
+  Spearman:          -0.158855
+  Kendall:           -0.113813
+  Mutual Info:       0.048757
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.104419
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[26/72] FEATURE: VB3_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,701,614 (99.96%)
+  NaN Count:         5,100 (0.04%)
+
+CORRELATION METRICS:
+  Pearson:           -0.116212
+  Spearman:          -0.185126
+  Kendall:           -0.116721
+  Mutual Info:       0.068143
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.116212
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[27/72] FEATURE: VB3_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,691,414 (99.87%)
+  NaN Count:         15,300 (0.13%)
+
+CORRELATION METRICS:
+  Pearson:           -0.126898
+  Spearman:          -0.210353
+  Kendall:           -0.130208
+  Mutual Info:       0.085731
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.126898
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[28/72] FEATURE: VB3_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,676,114 (99.74%)
+  NaN Count:         30,600 (0.26%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130897
+  Spearman:          -0.219070
+  Kendall:           -0.151829
+  Mutual Info:       0.103341
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130897
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[29/72] FEATURE: VB3_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,660,814 (99.61%)
+  NaN Count:         45,900 (0.39%)
+
+CORRELATION METRICS:
+  Pearson:           -0.132565
+  Spearman:          -0.222229
+  Kendall:           -0.142881
+  Mutual Info:       0.115163
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.132565
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[30/72] FEATURE: VB3_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,645,514 (99.48%)
+  NaN Count:         61,200 (0.52%)
+
+CORRELATION METRICS:
+  Pearson:           -0.133576
+  Spearman:          -0.224019
+  Kendall:           -0.159487
+  Mutual Info:       0.121610
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.133576
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[31/72] FEATURE: VB3_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,553,714 (98.69%)
+  NaN Count:         153,000 (1.31%)
+
+CORRELATION METRICS:
+  Pearson:           -0.136322
+  Spearman:          -0.227972
+  Kendall:           -0.145709
+  Mutual Info:       0.151312
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.136322
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[32/72] FEATURE: VB3_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,400,714 (97.39%)
+  NaN Count:         306,000 (2.61%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137838
+  Spearman:          -0.230672
+  Kendall:           -0.152599
+  Mutual Info:       0.174198
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137838
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[33/72] FEATURE: VB3_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,247,714 (96.08%)
+  NaN Count:         459,000 (3.92%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137994
+  Spearman:          -0.232165
+  Kendall:           -0.168823
+  Mutual Info:       0.194521
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137994
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[34/72] FEATURE: VB3_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,941,714 (93.47%)
+  NaN Count:         765,000 (6.53%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137472
+  Spearman:          -0.231706
+  Kendall:           -0.157037
+  Mutual Info:       0.219937
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137472
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[35/72] FEATURE: VB3_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,788,714 (92.16%)
+  NaN Count:         918,000 (7.84%)
+
+CORRELATION METRICS:
+  Pearson:           -0.136962
+  Spearman:          -0.231195
+  Kendall:           -0.154987
+  Mutual Info:       0.240621
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.136962
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[36/72] FEATURE: VB3_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      9,870,714 (84.32%)
+  NaN Count:         1,836,000 (15.68%)
+
+CORRELATION METRICS:
+  Pearson:           -0.140311
+  Spearman:          -0.227418
+  Kendall:           -0.153154
+  Mutual Info:       0.286015
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.140311
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[37/72] FEATURE: VB4_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,704,164 (99.98%)
+  NaN Count:         2,550 (0.02%)
+
+CORRELATION METRICS:
+  Pearson:           -0.104420
+  Spearman:          -0.158856
+  Kendall:           -0.104104
+  Mutual Info:       0.058886
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.104420
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[38/72] FEATURE: VB4_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,701,614 (99.96%)
+  NaN Count:         5,100 (0.04%)
+
+CORRELATION METRICS:
+  Pearson:           -0.116212
+  Spearman:          -0.185127
+  Kendall:           -0.136067
+  Mutual Info:       0.060620
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.116212
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[39/72] FEATURE: VB4_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,691,414 (99.87%)
+  NaN Count:         15,300 (0.13%)
+
+CORRELATION METRICS:
+  Pearson:           -0.126898
+  Spearman:          -0.210353
+  Kendall:           -0.155302
+  Mutual Info:       0.087258
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.126898
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[40/72] FEATURE: VB4_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,676,114 (99.74%)
+  NaN Count:         30,600 (0.26%)
+
+CORRELATION METRICS:
+  Pearson:           -0.130897
+  Spearman:          -0.219070
+  Kendall:           -0.148658
+  Mutual Info:       0.105877
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.130897
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[41/72] FEATURE: VB4_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,660,814 (99.61%)
+  NaN Count:         45,900 (0.39%)
+
+CORRELATION METRICS:
+  Pearson:           -0.132564
+  Spearman:          -0.222230
+  Kendall:           -0.160837
+  Mutual Info:       0.113556
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.132564
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[42/72] FEATURE: VB4_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,645,514 (99.48%)
+  NaN Count:         61,200 (0.52%)
+
+CORRELATION METRICS:
+  Pearson:           -0.133575
+  Spearman:          -0.224020
+  Kendall:           -0.144467
+  Mutual Info:       0.121000
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.133575
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[43/72] FEATURE: VB4_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,553,714 (98.69%)
+  NaN Count:         153,000 (1.31%)
+
+CORRELATION METRICS:
+  Pearson:           -0.136320
+  Spearman:          -0.227973
+  Kendall:           -0.162609
+  Mutual Info:       0.143937
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.136320
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[44/72] FEATURE: VB4_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,400,714 (97.39%)
+  NaN Count:         306,000 (2.61%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137835
+  Spearman:          -0.230673
+  Kendall:           -0.158886
+  Mutual Info:       0.161536
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137835
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[45/72] FEATURE: VB4_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,247,714 (96.08%)
+  NaN Count:         459,000 (3.92%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137990
+  Spearman:          -0.232165
+  Kendall:           -0.172356
+  Mutual Info:       0.192652
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137990
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[46/72] FEATURE: VB4_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,941,714 (93.47%)
+  NaN Count:         765,000 (6.53%)
+
+CORRELATION METRICS:
+  Pearson:           -0.137468
+  Spearman:          -0.231706
+  Kendall:           -0.146695
+  Mutual Info:       0.222474
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.137468
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[47/72] FEATURE: VB4_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,788,714 (92.16%)
+  NaN Count:         918,000 (7.84%)
+
+CORRELATION METRICS:
+  Pearson:           -0.136958
+  Spearman:          -0.231196
+  Kendall:           -0.166521
+  Mutual Info:       0.236460
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.136958
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[48/72] FEATURE: VB4_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      9,870,714 (84.32%)
+  NaN Count:         1,836,000 (15.68%)
+
+CORRELATION METRICS:
+  Pearson:           -0.140307
+  Spearman:          -0.227418
+  Kendall:           -0.159424
+  Mutual Info:       0.294361
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.140307
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[49/72] FEATURE: VB5_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,704,674 (99.98%)
+  NaN Count:         2,040 (0.02%)
+
+CORRELATION METRICS:
+  Pearson:           -0.097331
+  Spearman:          -0.148213
+  Kendall:           -0.090679
+  Mutual Info:       0.072453
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.097331
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[50/72] FEATURE: VB5_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,702,124 (99.96%)
+  NaN Count:         4,590 (0.04%)
+
+CORRELATION METRICS:
+  Pearson:           -0.104984
+  Spearman:          -0.168283
+  Kendall:           -0.125346
+  Mutual Info:       0.080607
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.104984
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[51/72] FEATURE: VB5_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,691,924 (99.87%)
+  NaN Count:         14,790 (0.13%)
+
+CORRELATION METRICS:
+  Pearson:           -0.110103
+  Spearman:          -0.185904
+  Kendall:           -0.133302
+  Mutual Info:       0.087953
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.110103
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[52/72] FEATURE: VB5_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,676,624 (99.74%)
+  NaN Count:         30,090 (0.26%)
+
+CORRELATION METRICS:
+  Pearson:           -0.111001
+  Spearman:          -0.192648
+  Kendall:           -0.134051
+  Mutual Info:       0.088836
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.111001
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[53/72] FEATURE: VB5_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,661,324 (99.61%)
+  NaN Count:         45,390 (0.39%)
+
+CORRELATION METRICS:
+  Pearson:           -0.110953
+  Spearman:          -0.195698
+  Kendall:           -0.142806
+  Mutual Info:       0.094556
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.110953
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[54/72] FEATURE: VB5_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,646,024 (99.48%)
+  NaN Count:         60,690 (0.52%)
+
+CORRELATION METRICS:
+  Pearson:           -0.110789
+  Spearman:          -0.197383
+  Kendall:           -0.117872
+  Mutual Info:       0.102980
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.110789
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[55/72] FEATURE: VB5_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,554,224 (98.70%)
+  NaN Count:         152,490 (1.30%)
+
+CORRELATION METRICS:
+  Pearson:           -0.112100
+  Spearman:          -0.200846
+  Kendall:           -0.130937
+  Mutual Info:       0.120238
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.112100
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[56/72] FEATURE: VB5_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,401,224 (97.39%)
+  NaN Count:         305,490 (2.61%)
+
+CORRELATION METRICS:
+  Pearson:           -0.113397
+  Spearman:          -0.201295
+  Kendall:           -0.130633
+  Mutual Info:       0.148625
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.113397
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[57/72] FEATURE: VB5_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,248,224 (96.08%)
+  NaN Count:         458,490 (3.92%)
+
+CORRELATION METRICS:
+  Pearson:           -0.115254
+  Spearman:          -0.201708
+  Kendall:           -0.138736
+  Mutual Info:       0.161354
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.115254
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[58/72] FEATURE: VB5_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,942,224 (93.47%)
+  NaN Count:         764,490 (6.53%)
+
+CORRELATION METRICS:
+  Pearson:           -0.118839
+  Spearman:          -0.198832
+  Kendall:           -0.135759
+  Mutual Info:       0.193549
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.118839
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[59/72] FEATURE: VB5_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      10,789,224 (92.16%)
+  NaN Count:         917,490 (7.84%)
+
+CORRELATION METRICS:
+  Pearson:           -0.119708
+  Spearman:          -0.197528
+  Kendall:           -0.133563
+  Mutual Info:       0.213802
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.119708
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[60/72] FEATURE: VB5_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      9,871,224 (84.32%)
+  NaN Count:         1,835,490 (15.68%)
+
+CORRELATION METRICS:
+  Pearson:           -0.151089
+  Spearman:          -0.187835
+  Kendall:           -0.125065
+  Mutual Info:       0.317023
+
+LAGGED CORRELATION:
+  Best Lag:          +0 periods
+  Best Lag Corr:     -0.151089
+
+CAUSALITY TEST:
+  Granger→Price:     YES
+
+INTERPRETATION:
+  Correlation Strength: WEAK negative correlation
+  Temporal Pattern: Best correlation at zero lag (contemporaneous)
+  Predictive Power: Feature has predictive power for future price (Granger causality detected)
+
+
+----------------------------------------------------------------------------------------------------
+[61/72] FEATURE: VB6_T1
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,589,931 (99.00%)
+  NaN Count:         116,783 (1.00%)
+
+CORRELATION METRICS:
+  Pearson:           +0.003715
+  Spearman:          -0.020488
+  Kendall:           -0.014361
+  Mutual Info:       0.006398
+
+LAGGED CORRELATION:
+  Best Lag:          +3 periods
+  Best Lag Corr:     +0.003735
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 3 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[62/72] FEATURE: VB6_T2
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,698,473 (99.93%)
+  NaN Count:         8,241 (0.07%)
+
+CORRELATION METRICS:
+  Pearson:           +0.001704
+  Spearman:          -0.019388
+  Kendall:           -0.013227
+  Mutual Info:       0.012251
+
+LAGGED CORRELATION:
+  Best Lag:          +7 periods
+  Best Lag Corr:     +0.001739
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 7 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[63/72] FEATURE: VB6_T3
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,474 (99.99%)
+  NaN Count:         1,240 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           +0.002095
+  Spearman:          -0.018788
+  Kendall:           -0.013115
+  Mutual Info:       0.013801
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     +0.002539
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[64/72] FEATURE: VB6_T4
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,565 (99.99%)
+  NaN Count:         1,149 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           +0.001136
+  Spearman:          -0.018640
+  Kendall:           -0.010926
+  Mutual Info:       0.009261
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     +0.001670
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[65/72] FEATURE: VB6_T5
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,635 (99.99%)
+  NaN Count:         1,079 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           +0.000830
+  Spearman:          -0.018682
+  Kendall:           -0.022372
+  Mutual Info:       0.013061
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     +0.001404
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[66/72] FEATURE: VB6_T6
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           +0.000653
+  Spearman:          -0.018735
+  Kendall:           -0.003711
+  Mutual Info:       0.004679
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     +0.001255
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK positive correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[67/72] FEATURE: VB6_T7
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.000079
+  Spearman:          -0.019069
+  Kendall:           -0.015637
+  Mutual Info:       0.010964
+
+LAGGED CORRELATION:
+  Best Lag:          +10 periods
+  Best Lag Corr:     +0.000573
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature leads price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[68/72] FEATURE: VB6_T8
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.000703
+  Spearman:          -0.019501
+  Kendall:           -0.010038
+  Mutual Info:       0.014748
+
+LAGGED CORRELATION:
+  Best Lag:          -2 periods
+  Best Lag Corr:     -0.000732
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 2 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[69/72] FEATURE: VB6_T9
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.001245
+  Spearman:          -0.019976
+  Kendall:           -0.004478
+  Mutual Info:       0.013013
+
+LAGGED CORRELATION:
+  Best Lag:          -2 periods
+  Best Lag Corr:     -0.001282
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 2 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[70/72] FEATURE: VB6_T10
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.002575
+  Spearman:          -0.021245
+  Kendall:           -0.020500
+  Mutual Info:       0.018407
+
+LAGGED CORRELATION:
+  Best Lag:          -2 periods
+  Best Lag Corr:     -0.002620
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 2 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[71/72] FEATURE: VB6_T11
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.003268
+  Spearman:          -0.021928
+  Kendall:           -0.029221
+  Mutual Info:       0.012003
+
+LAGGED CORRELATION:
+  Best Lag:          -2 periods
+  Best Lag Corr:     -0.003314
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 2 periods
+  Predictive Power: No significant Granger causality detected
+
+
+----------------------------------------------------------------------------------------------------
+[72/72] FEATURE: VB6_T12
+----------------------------------------------------------------------------------------------------
+
+DATA QUALITY:
+  Total Rows:        11,706,714
+  Valid Points:      11,705,663 (99.99%)
+  NaN Count:         1,051 (0.01%)
+
+CORRELATION METRICS:
+  Pearson:           -0.007499
+  Spearman:          -0.026200
+  Kendall:           -0.005520
+  Mutual Info:       0.014816
+
+LAGGED CORRELATION:
+  Best Lag:          -10 periods
+  Best Lag Corr:     -0.007557
+
+CAUSALITY TEST:
+  Granger→Price:     NO
+
+INTERPRETATION:
+  Correlation Strength: VERY WEAK negative correlation
+  Temporal Pattern: Feature lags price by 10 periods
+  Predictive Power: No significant Granger causality detected
+
+
+====================================================================================================
+QUICK REFERENCE SUMMARY TABLE (sorted by correlation strength)
+====================================================================================================
+
+Feature  Total_Rows  Valid_Points  NaN_Count  Valid_Pct   Pearson  Spearman   Kendall  Mutual_Info  Best_Lag  Best_Lag_Corr Granger→Price  Abs_Pearson
+VB5_T12    11706714       9871224    1835490  84.321049 -0.151089 -0.187835 -0.125065     0.317023         0      -0.151089           YES     0.151089
+VB3_T12    11706714       9870714    1836000  84.316692 -0.140311 -0.227418 -0.153154     0.286015         0      -0.140311           YES     0.140311
+VB4_T12    11706714       9870714    1836000  84.316692 -0.140307 -0.227418 -0.159424     0.294361         0      -0.140307           YES     0.140307
+ VB3_T9    11706714      11247714     459000  96.079173 -0.137994 -0.232165 -0.168823     0.194521         0      -0.137994            NO     0.137994
+ VB4_T9    11706714      11247714     459000  96.079173 -0.137990 -0.232165 -0.172356     0.192652         0      -0.137990           YES     0.137990
+ VB3_T8    11706714      11400714     306000  97.386115 -0.137838 -0.230672 -0.152599     0.174198         0      -0.137838           YES     0.137838
+ VB4_T8    11706714      11400714     306000  97.386115 -0.137835 -0.230673 -0.158886     0.161536         0      -0.137835           YES     0.137835
+VB3_T10    11706714      10941714     765000  93.465288 -0.137472 -0.231706 -0.157037     0.219937         0      -0.137472           YES     0.137472
+VB4_T10    11706714      10941714     765000  93.465288 -0.137468 -0.231706 -0.146695     0.222474         0      -0.137468           YES     0.137468
+VB3_T11    11706714      10788714     918000  92.158346 -0.136962 -0.231195 -0.154987     0.240621         0      -0.136962           YES     0.136962
+VB4_T11    11706714      10788714     918000  92.158346 -0.136958 -0.231196 -0.166521     0.236460         0      -0.136958           YES     0.136958
+ VB3_T7    11706714      11553714     153000  98.693058 -0.136322 -0.227972 -0.145709     0.151312         0      -0.136322            NO     0.136322
+ VB4_T7    11706714      11553714     153000  98.693058 -0.136320 -0.227973 -0.162609     0.143937         0      -0.136320           YES     0.136320
+VB2_T12    11706714       9870714    1836000  84.316692 -0.135875 -0.223503 -0.163578     0.285861         0      -0.135875           YES     0.135875
+ VB3_T6    11706714      11645514      61200  99.477223 -0.133576 -0.224019 -0.159487     0.121610         0      -0.133576           YES     0.133576
+ VB4_T6    11706714      11645514      61200  99.477223 -0.133575 -0.224020 -0.144467     0.121000         0      -0.133575           YES     0.133575
+ VB3_T5    11706714      11660814      45900  99.607917 -0.132565 -0.222229 -0.142881     0.115163         0      -0.132565           YES     0.132565
+ VB4_T5    11706714      11660814      45900  99.607917 -0.132564 -0.222230 -0.160837     0.113556         0      -0.132564           YES     0.132564
+ VB3_T4    11706714      11676114      30600  99.738612 -0.130897 -0.219070 -0.151829     0.103341         0      -0.130897            NO     0.130897
+ VB4_T4    11706714      11676114      30600  99.738612 -0.130897 -0.219070 -0.148658     0.105877         0      -0.130897           YES     0.130897
+ VB2_T8    11706714      11400714     306000  97.386115 -0.130769 -0.226816 -0.150023     0.158892         0      -0.130769            NO     0.130769
+VB2_T10    11706714      10941714     765000  93.465288 -0.130715 -0.227768 -0.149382     0.209489         0      -0.130715            NO     0.130715
+ VB2_T9    11706714      11247714     459000  96.079173 -0.130712 -0.228267 -0.145471     0.193539         0      -0.130712           YES     0.130712
+VB2_T11    11706714      10788714     918000  92.158346 -0.130623 -0.227199 -0.153323     0.223092         0      -0.130623           YES     0.130623
+ VB2_T7    11706714      11553714     153000  98.693058 -0.129551 -0.223899 -0.145351     0.137421         0      -0.129551           YES     0.129551
+ VB4_T3    11706714      11691414      15300  99.869306 -0.126898 -0.210353 -0.155302     0.087258         0      -0.126898           YES     0.126898
+ VB3_T3    11706714      11691414      15300  99.869306 -0.126898 -0.210353 -0.130208     0.085731         0      -0.126898            NO     0.126898
+ VB2_T6    11706714      11645514      61200  99.477223 -0.126867 -0.219110 -0.153267     0.113032         0      -0.126867           YES     0.126867
+ VB2_T5    11706714      11660814      45900  99.607917 -0.125816 -0.217077 -0.144763     0.111581         0      -0.125816           YES     0.125816
+ VB2_T4    11706714      11676114      30600  99.738612 -0.124057 -0.213732 -0.142309     0.100881         0      -0.124057           YES     0.124057
+ VB2_T3    11706714      11691414      15300  99.869306 -0.119932 -0.205258 -0.142971     0.085423         0      -0.119932           YES     0.119932
+VB5_T11    11706714      10789224     917490  92.162703 -0.119708 -0.197528 -0.133563     0.213802         0      -0.119708           YES     0.119708
+VB5_T10    11706714      10942224     764490  93.469645 -0.118839 -0.198832 -0.135759     0.193549         0      -0.118839           YES     0.118839
+ VB4_T2    11706714      11701614       5100  99.956435 -0.116212 -0.185127 -0.136067     0.060620         0      -0.116212           YES     0.116212
+ VB3_T2    11706714      11701614       5100  99.956435 -0.116212 -0.185126 -0.116721     0.068143         0      -0.116212           YES     0.116212
+ VB5_T9    11706714      11248224     458490  96.083530 -0.115254 -0.201708 -0.138736     0.161354         0      -0.115254           YES     0.115254
+ VB5_T8    11706714      11401224     305490  97.390472 -0.113397 -0.201295 -0.130633     0.148625         0      -0.113397           YES     0.113397
+ VB5_T7    11706714      11554224     152490  98.697414 -0.112100 -0.200846 -0.130937     0.120238         0      -0.112100           YES     0.112100
+ VB5_T4    11706714      11676624      30090  99.742968 -0.111001 -0.192648 -0.134051     0.088836         0      -0.111001           YES     0.111001
+ VB5_T5    11706714      11661324      45390  99.612274 -0.110953 -0.195698 -0.142806     0.094556         0      -0.110953           YES     0.110953
+ VB5_T6    11706714      11646024      60690  99.481580 -0.110789 -0.197383 -0.117872     0.102980         0      -0.110789           YES     0.110789
+ VB5_T3    11706714      11691924      14790  99.873662 -0.110103 -0.185904 -0.133302     0.087953         0      -0.110103           YES     0.110103
+ VB2_T2    11706714      11701614       5100  99.956435 -0.109096 -0.181893 -0.124766     0.073319         0      -0.109096           YES     0.109096
+ VB5_T2    11706714      11702124       4590  99.960792 -0.104984 -0.168283 -0.125346     0.080607         0      -0.104984           YES     0.104984
+ VB4_T1    11706714      11704164       2550  99.978218 -0.104420 -0.158856 -0.104104     0.058886         0      -0.104420           YES     0.104420
+ VB3_T1    11706714      11704164       2550  99.978218 -0.104419 -0.158855 -0.113813     0.048757         0      -0.104419            NO     0.104419
+ VB2_T1    11706714      11704164       2550  99.978218 -0.098371 -0.159028 -0.112591     0.065897         0      -0.098371            NO     0.098371
+ VB5_T1    11706714      11704674       2040  99.982574 -0.097331 -0.148213 -0.090679     0.072453         0      -0.097331           YES     0.097331
+ VB1_T3    11706714      11691221      15493  99.867657 -0.019077 -0.021150 -0.015433     0.004206        10      -0.019203            NO     0.019077
+ VB1_T4    11706714      11676013      30701  99.737749 -0.018947 -0.019597 -0.010725     0.003392        10      -0.019129            NO     0.018947
+ VB1_T5    11706714      11660785      45929  99.607670 -0.017975 -0.018700 -0.018520     0.005012        10      -0.018120            NO     0.017975
+ VB1_T6    11706714      11645514      61200  99.477223 -0.017411 -0.018707 -0.001313     0.003393        10      -0.017556            NO     0.017411
+ VB1_T2    11706714      11689825      16889  99.855732 -0.016792 -0.021086 -0.005918     0.006004       -10      -0.016855            NO     0.016792
+ VB1_T7    11706714      11553714     153000  98.693058 -0.014303 -0.016404  0.004377     0.009555        10      -0.014475            NO     0.014303
+ VB1_T8    11706714      11400714     306000  97.386115 -0.012193 -0.014634 -0.010482     0.026152        10      -0.012302            NO     0.012193
+ VB1_T1    11706714      11474292     232422  98.014626 -0.010734 -0.022575 -0.013499     0.006496         3      -0.010766            NO     0.010734
+ VB1_T9    11706714      11247714     459000  96.079173 -0.010465 -0.014198 -0.012725     0.033130        10      -0.010537            NO     0.010465
+VB1_T10    11706714      10941714     765000  93.465288 -0.010286 -0.014716 -0.005998     0.044884       -10      -0.010311            NO     0.010286
+VB1_T11    11706714      10788714     918000  92.158346 -0.009800 -0.014940 -0.009227     0.066058       -10      -0.009831            NO     0.009800
+VB1_T12    11706714       9870714    1836000  84.316692 -0.007938 -0.024058 -0.022819     0.103931       -10      -0.007984            NO     0.007938
+VB6_T12    11706714      11705663       1051  99.991022 -0.007499 -0.026200 -0.005520     0.014816       -10      -0.007557            NO     0.007499
+ VB6_T1    11706714      11589931     116783  99.002427  0.003715 -0.020488 -0.014361     0.006398         3       0.003735            NO     0.003715
+VB6_T11    11706714      11705663       1051  99.991022 -0.003268 -0.021928 -0.029221     0.012003        -2      -0.003314            NO     0.003268
+VB6_T10    11706714      11705663       1051  99.991022 -0.002575 -0.021245 -0.020500     0.018407        -2      -0.002620            NO     0.002575
+ VB6_T3    11706714      11705474       1240  99.989408  0.002095 -0.018788 -0.013115     0.013801        10       0.002539            NO     0.002095
+ VB6_T2    11706714      11698473       8241  99.929604  0.001704 -0.019388 -0.013227     0.012251         7       0.001739            NO     0.001704
+ VB6_T9    11706714      11705663       1051  99.991022 -0.001245 -0.019976 -0.004478     0.013013        -2      -0.001282            NO     0.001245
+ VB6_T4    11706714      11705565       1149  99.990185  0.001136 -0.018640 -0.010926     0.009261        10       0.001670            NO     0.001136
+ VB6_T5    11706714      11705635       1079  99.990783  0.000830 -0.018682 -0.022372     0.013061        10       0.001404            NO     0.000830
+ VB6_T8    11706714      11705663       1051  99.991022 -0.000703 -0.019501 -0.010038     0.014748        -2      -0.000732            NO     0.000703
+ VB6_T6    11706714      11705663       1051  99.991022  0.000653 -0.018735 -0.003711     0.004679        10       0.001255            NO     0.000653
+ VB6_T7    11706714      11705663       1051  99.991022 -0.000079 -0.019069 -0.015637     0.010964        10       0.000573            NO     0.000079
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

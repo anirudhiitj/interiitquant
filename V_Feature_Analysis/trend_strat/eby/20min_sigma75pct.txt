@@ -1,0 +1,136 @@
+
+================================================================================
+SIGMA ANALYSIS SUMMARY (FIRST 20-MIN AREA)
+================================================================================
+
+Total days analyzed: 259
+
+75th Percentile of σ (20-min): 0.09
+Average σ (20-min) across all 259 days: 0.08
+Min σ (20-min): 0.02
+Max σ (20-min): 0.81
+Median σ (20-min): 0.07
+
+================================================================================
+SIGMA DISTRIBUTION
+================================================================================
+Days with σ > 75th percentile (0.09):   63 ( 24.3%)
+Days with σ < 75th percentile (0.09):  196 ( 75.7%)
+
+================================================================================
+MEAN DISTRIBUTION
+================================================================================
+Days with μ > 100:  123 ( 47.5%)
+Days with μ < 100:  136 ( 52.5%)
+
+================================================================================
+SIGMA ANALYSIS - WHEN μ > 100
+================================================================================
+Average σ (20-min):   0.07
+Days with σ > 75th pct:   25 /  123 ( 20.3%)
+Avg Price@20min:          100.15
+Avg (High - Price@20min):   0.45
+Avg (Price@20min - Low):    0.45
+
+================================================================================
+SIGMA ANALYSIS - WHEN μ < 100
+================================================================================
+Average σ (20-min):   0.09
+Days with σ > 75th pct:   38 /  136 ( 27.9%)
+Avg Price@20min:           99.84
+Avg (High - Price@20min):   0.51
+Avg (Price@20min - Low):    0.55
+
+================================================================================
+4-WAY DIVISION ANALYSIS
+================================================================================
+
+--------------------------------------------------------------------------------
+DIVISION: μ>100, σ>75pct
+--------------------------------------------------------------------------------
+Number of days:                           25 (  9.7% of total)
+Days that close above 100:                18 /   25 ( 72.0%)
+Days with first 20min area above 100 > 95%:       15 /   25 ( 60.0%)
+Days where price never goes below 100 (first 20min):   1 /   25 (  4.0%)
+Avg μ (first 20-min):                    100.18
+Avg σ (first 20-min):                      0.14
+Avg Price@20min:                         100.32
+Avg (High - Price@20min):                  0.61
+Avg (Price@20min - Low):                   0.62
+Avg % area above 100 (first 20min):      91.97%
+Avg % area below 100 (first 20min):       8.03%
+Avg % of rest-of-day price > 100:        79.22%
+Avg % of rest-of-day price < 100:        20.77%
+Avg closing price:                       100.42
+
+--------------------------------------------------------------------------------
+DIVISION: μ>100, σ<75pct
+--------------------------------------------------------------------------------
+Number of days:                           98 ( 37.8% of total)
+Days that close above 100:                65 /   98 ( 66.3%)
+Days with first 20min area above 100 > 95%:       57 /   98 ( 58.2%)
+Days where price never goes below 100 (first 20min):  12 /   98 ( 12.2%)
+Avg μ (first 20-min):                    100.07
+Avg σ (first 20-min):                      0.06
+Avg Price@20min:                         100.10
+Avg (High - Price@20min):                  0.41
+Avg (Price@20min - Low):                   0.41
+Avg % area above 100 (first 20min):      86.27%
+Avg % area below 100 (first 20min):      13.73%
+Avg % of rest-of-day price > 100:        65.15%
+Avg % of rest-of-day price < 100:        34.84%
+Avg closing price:                       100.16
+
+--------------------------------------------------------------------------------
+DIVISION: μ<100, σ<75pct
+--------------------------------------------------------------------------------
+Number of days:                           98 ( 37.8% of total)
+Days that close above 100:                36 /   98 ( 36.7%)
+Days with first 20min area below 100 > 95%:       44 /   98 ( 44.9%)
+Days where price never goes above 100 (first 20min):  10 /   98 ( 10.2%)
+Avg μ (first 20-min):                     99.93
+Avg σ (first 20-min):                      0.06
+Avg Price@20min:                          99.89
+Avg (High - Price@20min):                  0.45
+Avg (Price@20min - Low):                   0.44
+Avg % area above 100 (first 20min):      12.89%
+Avg % area below 100 (first 20min):      87.11%
+Avg % of rest-of-day price > 100:        40.55%
+Avg % of rest-of-day price < 100:        59.44%
+Avg closing price:                        99.86
+
+--------------------------------------------------------------------------------
+DIVISION: μ<100, σ>75pct
+--------------------------------------------------------------------------------
+Number of days:                           38 ( 14.7% of total)
+Days that close above 100:                11 /   38 ( 28.9%)
+Days with first 20min area below 100 > 95%:       23 /   38 ( 60.5%)
+Days where price never goes above 100 (first 20min):   4 /   38 ( 10.5%)
+Avg μ (first 20-min):                     99.80
+Avg σ (first 20-min):                      0.16
+Avg Price@20min:                          99.69
+Avg (High - Price@20min):                  0.68
+Avg (Price@20min - Low):                   0.85
+Avg % area above 100 (first 20min):      10.07%
+Avg % area below 100 (first 20min):      89.93%
+Avg % of rest-of-day price > 100:        23.78%
+Avg % of rest-of-day price < 100:        76.22%
+Avg closing price:                        99.66
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Total days closing above 100:                       130 /  259 ( 50.2%)
+Total days first 20min area above 100 > 95%:         72 /  259 ( 27.8%)
+Total days first 20min area below 100 > 95%:         67 /  259 ( 25.9%)
+Total days price never crosses 100 (first 20min):    27 /  259 ( 10.4%)
+Avg μ (first 20-min, all days):                      99.99
+Avg σ (first 20-min, all days):                       0.08
+Avg Price@20min (all days):                          99.99
+Avg (High - Price@20min, all days):                   0.48
+Avg (Price@20min - Low, all days):                    0.50
+Avg % area above 100 (first 20min):                 47.88%
+Avg % area below 100 (first 20min):                 52.12%
+Avg % of rest-of-day price > 100:                   51.13%
+Avg % of rest-of-day price < 100:                   48.86%
+Avg closing price (all days):                       100.00

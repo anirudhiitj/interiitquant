@@ -1,0 +1,77 @@
+ FEATURE: V1_T4
+------------------------------------------------------------
+DATA QUALITY:
+  Total Rows:           11,706,714
+  Valid Points:          11,706,714 (100.00%)
+  NaN Count:             0 (0.00%)
+
+------------------------------------------------------------
+DISTRIBUTIONAL CHARACTERISTICS:
+  Mean (μ):              1.1228
+  Std. Deviation (σ):    4.2889
+  Skewness:              NaN  (undefined due to extreme outliers)
+  Kurtosis:              NaN  (undefined due to extreme outliers)
+  Spike Threshold (μ + 3σ): 13.9894
+
+  Observation:
+    - Majority of data values lie close to 0–1.
+    - A small number of extremely large spikes (up to ~500) dominate the distribution.
+    - Skewness and kurtosis are undefined numerically due to overflow from large outliers.
+    - Confirms a **heavy-tailed, bursty, non-Gaussian** process.
+
+------------------------------------------------------------
+TEMPORAL BEHAVIOR:
+  Pattern:               Sparse, isolated, high-magnitude bursts
+  Spike Count:           129 spikes detected (Day 10)
+  Clustering:            Weak (mostly independent spike events)
+  Baseline Level:        Near-zero
+  Periodicity:           None observed (irregular temporal spacing)
+
+  Observation:
+    - V1_T4 remains near baseline for long periods.
+    - When spikes occur, they are isolated but extremely intense.
+    - Unlike V5, this feature does not exhibit consistent clustering.
+
+------------------------------------------------------------
+PRICE RELATIONSHIP:
+  Pearson Corr (V1_T4, Price Returns):     -0.0044
+  Temporal Alignment:                      Mixed (spikes occur during both up and down price moves)
+  Qualitative Behavior:                    Appears during local reversals and volatility transitions
+
+  Observation:
+    - Very weak negative correlation with price returns.
+    - Spikes coincide with short-term price instability rather than directional trend.
+    - Suggests association with sudden market microstructure shocks.
+
+------------------------------------------------------------
+MODEL RECOMMENDATION:
+  Suitable Models:
+    (1) Generalized Pareto / Extreme Value Theory (EVT)
+        Parameters: ξ (shape), σ (scale)
+        → For modeling tail behavior of extreme spikes.
+    (2) GARCH(1,1)
+        Parameters: ω (baseline variance), α (shock sensitivity), β (persistence)
+        → To verify if volatility persistence exists.
+    (3) Outlier/Jump Models
+        → Capture rare, discrete, high-impact bursts explicitly.
+
+  Observation:
+    - GARCH likely yields low persistence (weak clustering).
+    - EVT models are most appropriate given isolated, extreme spike nature.
+
+------------------------------------------------------------
+INTERPRETATION:
+  Feature Nature:        Volume imbalance / discrete trade shock indicator
+  Statistical Type:      Sparse, heavy-tailed, non-stationary
+  Behavior Summary:      Quiet baseline interrupted by rare, large bursts
+  Relationship to Price: Weakly inverse; potential reactionary indicator
+  Model Parameters:      Tail exponent (ξ), scale (σ)
+  Predictive Role:       May indicate market instability or high-impact trade moments
+
+------------------------------------------------------------
+COMMENTS:
+  - V1_T4 captures **rare liquidity or volume shocks** rather than continuous volatility.
+  - Its extremely high variance and undefined skew/kurtosis confirm the presence of fat tails.
+  - Recommended for tail-risk or impact analysis rather than return forecasting.
+  - Use EVT-based tail modeling for parameter extraction and regime tagging.
+------------------------------------------------------------

@@ -1,0 +1,82 @@
+[103/115] FEATURE: V3_T12
+------------------------------------------------------------
+DATA QUALITY:
+  Total Rows:           11,706,714
+  Valid Points:          11,706,714 (100.00%)
+  NaN Count:             0 (0.00%)
+
+------------------------------------------------------------
+DISTRIBUTIONAL CHARACTERISTICS:
+  Mean (μ):              0.0190
+  Std. Deviation (σ):    1.0094
+  Skewness:              15.4255
+  Kurtosis:              468.8490
+  Spike Threshold (μ + 3σ): 3.0472
+
+  Observation:
+    - Feature exhibits an extremely right-skewed distribution.
+    - Most values are near zero, with a few very large positive spikes.
+    - High skewness (15.4) and kurtosis (~469) confirm a **super-heavy tail** and extreme outliers.
+    - Distribution shape: **leptokurtic**, highly non-Gaussian.
+    - The mean and standard deviation are low, suggesting a calm baseline with sporadic bursts.
+
+------------------------------------------------------------
+TEMPORAL BEHAVIOR:
+  Pattern:               Mostly quiet with intermittent bursts
+  Spike Count:           297 spikes detected (Day 10)
+  Spike Threshold:        3.05
+  Clustering:            Moderate; visible in short bursts, often near volatile price regions
+  Baseline Level:        Near 0
+  Periodicity:           None observed (irregular burst timing)
+
+  Observation:
+    - V3_T12 alternates between long silent intervals and short clusters of elevated activity.
+    - Spike magnitudes remain moderate (up to ~40–50), indicating *contained intensity* compared to V1_T4.
+    - Spike density is higher than V1_T4 but lower than V5 — a **mid-frequency spiking process**.
+
+------------------------------------------------------------
+PRICE RELATIONSHIP:
+  Pearson Corr (V3_T12, Price Returns):  -0.0054
+  Temporal Alignment:                     Spikes often occur around local price reversals or small trend pauses.
+  Qualitative Behavior:                   Weakly inverse; may reflect reactive liquidity response rather than prediction.
+
+  Observation:
+    - Very weak correlation with price returns.
+    - Spike alignment shows that feature activity intensifies around both up and down swings.
+    - Suggests **reactive** rather than predictive behavior.
+    - Indicates possible connection to transient microstructure imbalances.
+
+------------------------------------------------------------
+MODEL RECOMMENDATION:
+  Suitable Models:
+    (1) **GARCH(1,1)**:
+        → To capture persistence in moderate volatility clustering.
+        → Check α + β ≈ 1 for volatility memory.
+    (2) **Hawkes Process (Self-Exciting Model)**:
+        → To test if clusters of spikes lead to further spikes (endogenous activity).
+    (3) **Extreme Value Theory (EVT)**:
+        → Optional, for modeling rare spikes above threshold 3.05.
+        → Extract shape (ξ) and scale (σ) for the tail.
+
+  Observation:
+    - The feature’s frequent yet irregular spikes suggest *semi-persistent bursts*.
+    - GARCH can quantify variance persistence; EVT can isolate extreme regimes.
+    - A hybrid GARCH–EVT model may best explain both base and tail behavior.
+
+------------------------------------------------------------
+INTERPRETATION:
+  Feature Nature:        Volume-based intensity / event-response indicator
+  Statistical Type:      Semi-sparse, heavy-tailed, weakly autocorrelated
+  Behavior Summary:      Alternating calm and bursty phases; moderate spikes with clustering
+  Relationship to Price: Weakly inverse, likely reactive
+  Model Parameters:      μ, σ (baseline), α, β (GARCH), ξ, σ_tail (EVT)
+  Predictive Role:       Short-term volatility explainer, not a directional predictor
+
+------------------------------------------------------------
+COMMENTS:
+  - V3_T12 captures **moderate, recurring volume shocks** possibly linked to local market activity bursts.
+  - Its spike structure lies between purely sparse (V1_T4) and continuously volatile (V3_T7).
+  - Skewness and kurtosis are among the **highest in all V-features**, confirming extreme asymmetry.
+  - Best suited for modeling *volatility regime shifts* or *momentary intensity jumps*.
+  - Models like **GARCH(1,1)** or **Hawkes–EVT hybrid** should extract stable statistical parameters.
+------------------------------------------------------------

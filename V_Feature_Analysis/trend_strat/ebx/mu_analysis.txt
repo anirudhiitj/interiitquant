@@ -1,0 +1,35 @@
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Total days analyzed: 490
+  Days with first 30-min mean > 100:  249 ( 50.8%)
+  Days with first 30-min mean < 100:  241 ( 49.2%)
+
+================================================================================
+WHEN FIRST 30-MIN MEAN > 100:
+================================================================================
+Days that close above 100:               161 /  249 ( 64.7%)
+Avg % of rest-of-day price > 100:        66.95%
+Avg % of rest-of-day price < 100:        32.94%
+Avg closing price:                       100.20
+Avg first 30-min mean:                   100.11
+
+================================================================================
+WHEN FIRST 30-MIN MEAN < 100:
+================================================================================
+Days that close above 100:               112 /  241 ( 46.5%)
+Days that close below 100:               129 /  241 ( 53.5%)
+Avg % of rest-of-day price > 100:        40.27%
+Avg % of rest-of-day price < 100:        59.61%
+Avg closing price:                        99.83
+Avg first 30-min mean:                    99.90
+
+================================================================================
+OVERALL STATISTICS:
+================================================================================
+Total days closing above 100:            273 /  490 ( 55.7%)
+Avg % of rest-of-day price > 100:        53.82%
+Avg % of rest-of-day price < 100:        46.06%
+Avg closing price (all days):            100.02
+Avg first 30-min mean (all days):        100.01

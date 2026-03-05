@@ -1,0 +1,132 @@
+================================================================================
+PRICE TOUCH 100.09 ANALYSIS SUMMARY (1-5 MINUTE WINDOW)
+================================================================================
+
+Total days where price touched 100.09 in 1-5 min window: 174
+Total days in dataset: 510
+Percentage of days with touch: 34.12%
+
+================================================================================
+COMPARISON: TOUCH DAYS vs ALL DAYS
+================================================================================
+
+MEAN (μ) COMPARISON:
+--------------------------------------------------------------------------------
+  Touch days μ (mean):      100.1462
+  All days μ (mean):        100.0149
+  Difference:               +0.1313 (+0.13%)
+
+  Touch days μ (median):    100.1231
+  All days μ (median):      100.0290
+  Difference:               +0.0941 (+0.09%)
+
+VOLATILITY (σ) COMPARISON:
+--------------------------------------------------------------------------------
+  Touch days σ (mean):      0.2362
+  All days σ (mean):        0.2167
+  Difference:               +0.0195 (+9.02%)
+
+  Touch days σ (median):    0.1898
+  All days σ (median):      0.1721
+  Difference:               +0.0177 (+10.29%)
+
+CLOSING PRICE COMPARISON:
+--------------------------------------------------------------------------------
+  Touch days close (mean):  100.1400
+  All days close (mean):    100.0217
+  Difference:               +0.1184 (+0.12%)
+
+STATISTICAL SIGNIFICANCE:
+--------------------------------------------------------------------------------
+  μ difference t-test p-value:  0.001659 (SIGNIFICANT)
+  σ difference t-test p-value:  0.163261 (not significant)
+
+================================================================================
+TOUCH TIMING STATISTICS
+================================================================================
+
+Average time to touch:     138.9 seconds
+Median time to touch:      114.0 seconds
+Min time to touch:         60.0 seconds
+Max time to touch:         298.0 seconds
+
+================================================================================
+VOLATILITY STATISTICS (FULL DAY)
+================================================================================
+
+Average σ (full day):      0.2362
+Median σ (full day):       0.1898
+Min σ (full day):          0.0627
+Max σ (full day):          1.2135
+25th Percentile σ:         0.1325
+75th Percentile σ:         0.2852
+
+Average peak-to-peak:      1.0831
+Median peak-to-peak:       0.9133
+
+================================================================================
+MEAN PRICE STATISTICS (FULL DAY)
+================================================================================
+
+Average μ (full day):      100.1462
+Median μ (full day):       100.1231
+Min μ (full day):          98.2885
+Max μ (full day):          102.6924
+
+Days with μ > 100:          112 ( 64.4%)
+Days with μ < 100:           62 ( 35.6%)
+
+================================================================================
+CLOSING PRICE STATISTICS
+================================================================================
+
+Average closing price:     100.1400
+Median closing price:      100.1818
+Min closing price:         97.9704
+Max closing price:         103.3829
+
+Days closing above 100:     108 ( 62.1%)
+Days closing above 100.09:    97 ( 55.7%)
+
+================================================================================
+5-MINUTE WINDOW STATISTICS
+================================================================================
+
+Average μ (5-min):         100.0602
+Average σ (5-min):         0.0459
+Average price@5min:        100.0862
+
+================================================================================
+POST-TOUCH BEHAVIOR (After 5 minutes)
+================================================================================
+
+Average μ (post-touch):    100.1474
+Average σ (post-touch):    0.2326
+Average high (post-touch): 100.6335
+Average low (post-touch):  99.5704
+
+================================================================================
+TIME DISTRIBUTION (FULL DAY)
+================================================================================
+
+Average % time above 100:  64.34%
+Average % time below 100:  35.54%
+
+================================================================================
+VOLATILITY DISTRIBUTION
+================================================================================
+
+Low volatility (σ < 0.1325):         43 ( 24.7%)
+Med-low volatility:                     44 ( 25.3%)
+Med-high volatility:                    43 ( 24.7%)
+High volatility (σ >= 0.2852):       44 ( 25.3%)
+
+================================================================================
+CORRELATION ANALYSIS
+================================================================================
+
+Correlation (touch time vs closing price):  -0.0345
+Correlation (touch time vs volatility):     -0.1643
+Correlation (volatility vs closing price):  -0.0292
+
+================================================================================

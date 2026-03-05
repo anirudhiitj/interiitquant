@@ -1,0 +1,83 @@
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv*/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Caches and reports
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Executables and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Google Cloud / GCP SDK and related
+google-cloud-sdk/
+gcp/
+*.json
+!package.json
+!tsconfig.json
+!requirements.json
+data-uploader-key.json
+tenacious-camp-*-v*.json
+
+# Logs
+*.log
+cufile.log
+
+# Data and results files
+*.xlsx
+*.xls
+backtest_results.txt
+daily_summary.xlsx
+
+# Debian packages and installers
+*.deb
+*.rpm
+
+# Project-specific ignores
+time_series_plots/
+feature_plots/
+*.csv
+*Feature_Analysis/*.txt
+*Feature_Analysis/*Backtest/
+*Feature_Analysis/*correlation_txt/
+resample/
+*.html
+trade_signals/
+*.png
+alphaResearchPythonFramework_IIT/
+backtester_endterm/
+*.parquet
+google-cloud-cli-linux-x86_64.tar.gz

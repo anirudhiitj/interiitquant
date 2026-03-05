@@ -1,0 +1,139 @@
+====================================================================================================
+VOLUME FEATURE SELECTION REPORT
+====================================================================================================
+
+Selected Features (Final 17):
+[V1_T1, V1_T4, V1_T8, V2_T1, V2_T4, V2_T8, V2_T10, V3_T1, V3_T7, V3_T12, V4_T2, V5, V5_T10,
+ V8_T1_T12, V8_T3_T4, V8_T4_T5, V8_T9_T12]
+
+----------------------------------------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------------------------------------
+Total Features Analysed: 115
+Selected Features: 17
+Selection Criteria: Multi-metric ranking (Pearson, Spearman, Kendall, Mutual Info, Lag Correlation, 
+                   Granger Causality) + Temporal Stability + Redundancy Minimization
+Analysis Date: 22 Oct 2025
+----------------------------------------------------------------------------------------------------
+
+INTERPRETATION OVERVIEW:
+The selected feature subset balances predictive strength, stability, and uniqueness across 
+different temporal horizons. Families V1–V2 provide linear and stable predictors, V5 and V8 capture 
+non-linear and regime-dependent behavior, while V3–V4 maintain orthogonal diversity and reduce 
+redundancy in the feature space.
+
+====================================================================================================
+[1] FEATURE FAMILY: V1  → (Selected: V1_T1, V1_T4, V1_T8)
+====================================================================================================
+
+ROLE: Linear trend-following leaders  
+BEHAVIOR:  
+  • Small positive best-lags → slightly leading indicator of price.  
+  • Stable correlation signs across all periods.  
+  • Moderate correlation strength, consistent direction (Pearson ≈ 0.02 to 0.05).  
+  • High reliability in low-volatility regimes.
+
+INTERPRETATION:  
+  The V1 family contributes steady, interpretable signals suitable for trend-aligned forecasting.  
+  V1_T4 acts as a core mid-horizon indicator; V1_T1 captures near-term responsiveness; V1_T8 
+  provides mid-late robustness.
+
+====================================================================================================
+[2] FEATURE FAMILY: V2  → (Selected: V2_T1, V2_T4, V2_T8, V2_T10)
+====================================================================================================
+
+ROLE: Primary predictive backbone (linear & directional)  
+BEHAVIOR:  
+  • Most stable and consistent correlations (negative across Pearson, Spearman, Kendall).  
+  • Clear small positive lags — forward-looking structure.  
+  • Mutual Information rises across time (T4–T10), reflecting non-linear predictiveness.  
+  • Minimal noise and lowest missing-value count.
+
+INTERPRETATION:  
+  The V2 family forms the core of the predictive set.  
+  V2_T4 and V2_T8 capture the evolving strength of the relationship across horizons, while V2_T10 
+  extends lead-time coverage. These are robust under different market regimes.
+
+====================================================================================================
+[3] FEATURE FAMILY: V3  → (Selected: V3_T1, V3_T7, V3_T12)
+====================================================================================================
+
+ROLE: Orthogonal stabilizers  
+BEHAVIOR:  
+  • Weak but consistent correlation magnitudes.  
+  • Low inter-feature correlation with dominant groups (V1, V2, V8).  
+  • Stable temporal pattern with smooth correlation evolution.
+
+INTERPRETATION:  
+  V3 features introduce orthogonality and variance control, acting as stabilizers against overfitting.  
+  They provide context for confirming other signals without redundancy.
+
+====================================================================================================
+[4] FEATURE FAMILY: V4  → (Selected: V4_T2)
+====================================================================================================
+
+ROLE: Reactive confirmation signal  
+BEHAVIOR:  
+  • Slightly lagging pattern relative to price.  
+  • Correlation strength small but consistent in direction.  
+  • No Granger causality detected; primarily follows market moves.
+
+INTERPRETATION:  
+  V4_T2 enhances model calibration by offering a reactive, confirmatory dynamic complementary to 
+  the leading nature of V1–V2.
+
+====================================================================================================
+[5] FEATURE FAMILY: V5  → (Selected: V5, V5_T10)
+====================================================================================================
+
+ROLE: Volatility and regime-shift detector  
+BEHAVIOR:  
+  • Episodic bursts in Mutual Information; occasional Granger causality significance.  
+  • Higher variance in correlation magnitude; peaks near structural changes.  
+  • Late-period MI spikes indicate adaptability to changing market states.
+
+INTERPRETATION:  
+  The V5 group adds sensitivity to transitions — strong when markets shift regimes.  
+  V5_T10 captures this dynamic best, aligning with short-term volatility patterns.
+
+====================================================================================================
+[6] FEATURE FAMILY: V8  → (Selected: V8_T1_T12, V8_T3_T4, V8_T4_T5, V8_T9_T12)
+====================================================================================================
+
+ROLE: Non-linear, regime-dependent cross-term predictors  
+BEHAVIOR:  
+  • High Mutual Information and occasional Granger causality → predictive of turning points.  
+  • Non-monotonic correlation evolution; different cross-term spans capture unique time regimes.  
+  • V8_T1_T12 covers full horizon; mid-band V8_T3_T4 and V8_T4_T5 capture dense local interaction; 
+    V8_T9_T12 adds late-regime signal diversity.
+
+INTERPRETATION:  
+  The V8 family represents higher-order dependencies, crucial for detecting latent regime changes 
+  and non-linear behaviors. These features enrich model complexity and improve adaptability.
+
+====================================================================================================
+AGGREGATE INSIGHTS
+====================================================================================================
+
+1. **Information Strength:**  
+   Average info_score ≈ 0.24–0.40 across selected features. Mutual Information and Granger tests 
+   confirm predictive relevance.
+
+2. **Redundancy Reduction:**  
+   Pairwise |corr| across selected features < 0.75. Cross-family complementarity maintained.  
+   High inter-group diversity (V2 linear + V8 non-linear).
+
+3. **Temporal Robustness:**  
+   Coverage across early, mid, and late horizons ensures time-generalizable feature behavior.
+
+4. **Predictive Directionality:**  
+   Majority of selected features exhibit small positive best-lags → indicative of forward bias 
+   (leading price by 2–6 periods).
+
+5. **Practical Use:**  
+   These 17 features form the optimal input base for feature importance modeling, Calmar/Sharpe 
+   strategy analysis, and further model diagnostics.
+
+----------------------------------------------------------------------------------------------------
+END OF REPORT
+----------------------------------------------------------------------------------------------------

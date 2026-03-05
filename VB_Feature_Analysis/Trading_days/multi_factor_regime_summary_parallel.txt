@@ -1,0 +1,318 @@
+========================================================================================================================
+MULTI-FACTOR MARKET REGIME SCORING SUMMARY (PARALLEL 25-CPU)
+========================================================================================================================
+
+ATR Window: 600 | SMA Window: 600
+ATR Threshold: 0.01 | Vol Threshold: 0.06
+Price Range Threshold: 0.7
+Days Processed: 279 / 279
+
+========================================================================================================================
+SECTION A — ATR > 0.01 and Considered Trades > 8 → Score +1
+========================================================================================================================
+Day  25 | ATR 0.01092 | Trades 10 | Score_A 1
+Day  20 | ATR 0.01876 | Trades 12 | Score_A 1
+Day  19 | ATR 0.04428 | Trades  9 | Score_A 1
+Day  50 | ATR 0.01191 | Trades  9 | Score_A 1
+Day  10 | ATR 0.01121 | Trades 11 | Score_A 1
+Day  58 | ATR 0.01001 | Trades 12 | Score_A 1
+Day  68 | ATR 0.01874 | Trades  9 | Score_A 1
+Day  61 | ATR 0.01984 | Trades 20 | Score_A 1
+Day  72 | ATR 0.02039 | Trades 10 | Score_A 1
+Day 104 | ATR 0.02199 | Trades 175 | Score_A 1
+Day 107 | ATR 0.01582 | Trades  9 | Score_A 1
+Day 110 | ATR 0.01455 | Trades 33 | Score_A 1
+Day 123 | ATR 0.01149 | Trades 11 | Score_A 1
+Day 115 | ATR 0.01541 | Trades 18 | Score_A 1
+Day 128 | ATR 0.01885 | Trades  9 | Score_A 1
+Day 135 | ATR 0.02480 | Trades 14 | Score_A 1
+Day 137 | ATR 0.01826 | Trades 10 | Score_A 1
+Day 158 | ATR 0.02825 | Trades 13 | Score_A 1
+Day 162 | ATR 0.01076 | Trades 15 | Score_A 1
+Day 147 | ATR 0.02272 | Trades  9 | Score_A 1
+Day 165 | ATR 0.08412 | Trades 34 | Score_A 1
+Day 174 | ATR 0.02736 | Trades 19 | Score_A 1
+Day 182 | ATR 0.02092 | Trades 14 | Score_A 1
+Day 177 | ATR 0.02215 | Trades  9 | Score_A 1
+Day 194 | ATR 0.01167 | Trades 11 | Score_A 1
+Day 185 | ATR 0.02501 | Trades 16 | Score_A 1
+Day 209 | ATR 0.01001 | Trades 19 | Score_A 1
+Day 228 | ATR 0.01294 | Trades 11 | Score_A 1
+Day 234 | ATR 0.01242 | Trades  9 | Score_A 1
+Day 237 | ATR 0.04982 | Trades  9 | Score_A 1
+Day 263 | ATR 0.01837 | Trades 11 | Score_A 1
+Day 275 | ATR 0.01176 | Trades 10 | Score_A 1
+Day 277 | ATR 0.01965 | Trades 13 | Score_A 1
+
+TOTAL SCORE (A): 33
+
+========================================================================================================================
+SECTION B — Volatility > 0.06 and Considered Trades > 8 → Score +1
+========================================================================================================================
+Day  25 | Vol 0.06025 | Trades 10 | Score_B 1
+Day  20 | Vol 0.12480 | Trades 12 | Score_B 1
+Day  19 | Vol 0.09047 | Trades  9 | Score_B 1
+Day  50 | Vol 0.16663 | Trades  9 | Score_B 1
+Day  10 | Vol 0.06006 | Trades 11 | Score_B 1
+Day  58 | Vol 0.07528 | Trades 12 | Score_B 1
+Day  68 | Vol 0.06699 | Trades  9 | Score_B 1
+Day  61 | Vol 0.10192 | Trades 20 | Score_B 1
+Day  72 | Vol 0.06144 | Trades 10 | Score_B 1
+Day 104 | Vol 0.48724 | Trades 175 | Score_B 1
+Day 107 | Vol 0.07083 | Trades  9 | Score_B 1
+Day 110 | Vol 0.41583 | Trades 33 | Score_B 1
+Day 123 | Vol 0.06001 | Trades 11 | Score_B 1
+Day 115 | Vol 0.12037 | Trades 18 | Score_B 1
+Day 128 | Vol 0.09684 | Trades  9 | Score_B 1
+Day 135 | Vol 0.06000 | Trades 14 | Score_B 1
+Day 137 | Vol 0.06004 | Trades 10 | Score_B 1
+Day 158 | Vol 0.16604 | Trades 13 | Score_B 1
+Day 162 | Vol 0.06009 | Trades 15 | Score_B 1
+Day 147 | Vol 0.06013 | Trades  9 | Score_B 1
+Day 165 | Vol 0.93059 | Trades 34 | Score_B 1
+Day 174 | Vol 0.06026 | Trades 19 | Score_B 1
+Day 182 | Vol 0.10130 | Trades 14 | Score_B 1
+Day 177 | Vol 0.18409 | Trades  9 | Score_B 1
+Day 194 | Vol 0.08813 | Trades 11 | Score_B 1
+Day 185 | Vol 0.06003 | Trades 16 | Score_B 1
+Day 209 | Vol 0.06033 | Trades 19 | Score_B 1
+Day 228 | Vol 0.06025 | Trades 11 | Score_B 1
+Day 234 | Vol 0.06009 | Trades  9 | Score_B 1
+Day 237 | Vol 0.12413 | Trades  9 | Score_B 1
+Day 263 | Vol 0.07542 | Trades 11 | Score_B 1
+Day 275 | Vol 0.06001 | Trades 10 | Score_B 1
+Day 277 | Vol 0.06134 | Trades 13 | Score_B 1
+
+TOTAL SCORE (B): 33
+
+========================================================================================================================
+SECTION C — Absolute Price Range > 0.7 → Score +1
+========================================================================================================================
+Day  18 | Range 1.219 | Score_C 1
+Day   1 | Range 1.110 | Score_C 1
+Day  14 | Range 1.037 | Score_C 1
+Day  25 | Range 1.712 | Score_C 1
+Day   6 | Range 1.683 | Score_C 1
+Day  22 | Range 2.319 | Score_C 1
+Day  24 | Range 1.066 | Score_C 1
+Day   0 | Range 0.963 | Score_C 1
+Day   5 | Range 0.871 | Score_C 1
+Day  12 | Range 0.875 | Score_C 1
+Day  20 | Range 1.208 | Score_C 1
+Day   7 | Range 1.118 | Score_C 1
+Day   9 | Range 0.758 | Score_C 1
+Day  19 | Range 1.697 | Score_C 1
+Day  28 | Range 0.834 | Score_C 1
+Day  29 | Range 0.716 | Score_C 1
+Day  31 | Range 1.254 | Score_C 1
+Day   2 | Range 1.019 | Score_C 1
+Day  30 | Range 1.242 | Score_C 1
+Day  21 | Range 0.993 | Score_C 1
+Day  34 | Range 0.788 | Score_C 1
+Day  38 | Range 1.579 | Score_C 1
+Day  33 | Range 0.938 | Score_C 1
+Day  50 | Range 2.211 | Score_C 1
+Day   3 | Range 0.718 | Score_C 1
+Day  43 | Range 1.723 | Score_C 1
+Day  42 | Range 1.149 | Score_C 1
+Day  41 | Range 0.933 | Score_C 1
+Day  49 | Range 1.175 | Score_C 1
+Day  23 | Range 0.782 | Score_C 1
+Day  10 | Range 1.678 | Score_C 1
+Day  40 | Range 1.113 | Score_C 1
+Day  47 | Range 0.948 | Score_C 1
+Day  15 | Range 0.900 | Score_C 1
+Day  63 | Range 1.104 | Score_C 1
+Day  58 | Range 0.956 | Score_C 1
+Day  62 | Range 1.126 | Score_C 1
+Day  53 | Range 0.760 | Score_C 1
+Day  56 | Range 1.429 | Score_C 1
+Day  68 | Range 0.869 | Score_C 1
+Day  54 | Range 0.964 | Score_C 1
+Day  13 | Range 1.395 | Score_C 1
+Day  61 | Range 1.208 | Score_C 1
+Day  76 | Range 1.359 | Score_C 1
+Day  85 | Range 1.536 | Score_C 1
+Day  82 | Range 0.948 | Score_C 1
+Day  73 | Range 1.025 | Score_C 1
+Day  78 | Range 1.176 | Score_C 1
+Day  69 | Range 1.029 | Score_C 1
+Day  79 | Range 1.149 | Score_C 1
+Day  84 | Range 0.907 | Score_C 1
+Day  88 | Range 1.239 | Score_C 1
+Day  67 | Range 1.057 | Score_C 1
+Day  72 | Range 2.067 | Score_C 1
+Day  89 | Range 1.115 | Score_C 1
+Day  91 | Range 1.234 | Score_C 1
+Day  86 | Range 0.861 | Score_C 1
+Day  77 | Range 1.430 | Score_C 1
+Day  90 | Range 1.340 | Score_C 1
+Day  92 | Range 1.337 | Score_C 1
+Day  95 | Range 0.764 | Score_C 1
+Day 104 | Range 9.079 | Score_C 1
+Day 109 | Range 0.724 | Score_C 1
+Day 116 | Range 1.188 | Score_C 1
+Day  98 | Range 0.961 | Score_C 1
+Day 107 | Range 1.426 | Score_C 1
+Day 110 | Range 4.133 | Score_C 1
+Day 122 | Range 0.816 | Score_C 1
+Day 123 | Range 1.712 | Score_C 1
+Day 105 | Range 0.918 | Score_C 1
+Day 115 | Range 1.915 | Score_C 1
+Day 120 | Range 0.809 | Score_C 1
+Day 126 | Range 1.087 | Score_C 1
+Day 118 | Range 1.214 | Score_C 1
+Day 127 | Range 1.433 | Score_C 1
+Day 128 | Range 1.476 | Score_C 1
+Day 108 | Range 1.139 | Score_C 1
+Day 135 | Range 2.179 | Score_C 1
+Day 112 | Range 1.030 | Score_C 1
+Day 129 | Range 0.992 | Score_C 1
+Day 119 | Range 0.712 | Score_C 1
+Day 139 | Range 0.723 | Score_C 1
+Day 134 | Range 1.368 | Score_C 1
+Day 137 | Range 1.582 | Score_C 1
+Day 149 | Range 1.309 | Score_C 1
+Day 141 | Range 1.114 | Score_C 1
+Day 143 | Range 0.936 | Score_C 1
+Day 136 | Range 1.000 | Score_C 1
+Day 138 | Range 1.264 | Score_C 1
+Day 145 | Range 0.726 | Score_C 1
+Day 158 | Range 1.475 | Score_C 1
+Day 153 | Range 1.263 | Score_C 1
+Day 157 | Range 0.776 | Score_C 1
+Day 150 | Range 0.804 | Score_C 1
+Day 162 | Range 2.113 | Score_C 1
+Day 147 | Range 1.218 | Score_C 1
+Day 152 | Range 0.810 | Score_C 1
+Day 164 | Range 0.742 | Score_C 1
+Day 165 | Range 4.479 | Score_C 1
+Day 159 | Range 0.840 | Score_C 1
+Day 168 | Range 1.754 | Score_C 1
+Day 151 | Range 1.143 | Score_C 1
+Day 174 | Range 1.871 | Score_C 1
+Day 167 | Range 1.112 | Score_C 1
+Day 181 | Range 0.850 | Score_C 1
+Day 173 | Range 1.494 | Score_C 1
+Day 175 | Range 1.323 | Score_C 1
+Day 169 | Range 1.885 | Score_C 1
+Day 176 | Range 1.064 | Score_C 1
+Day 182 | Range 2.555 | Score_C 1
+Day 177 | Range 0.997 | Score_C 1
+Day 187 | Range 1.559 | Score_C 1
+Day 184 | Range 0.980 | Score_C 1
+Day 194 | Range 1.498 | Score_C 1
+Day 185 | Range 1.695 | Score_C 1
+Day 202 | Range 1.529 | Score_C 1
+Day 206 | Range 0.799 | Score_C 1
+Day 188 | Range 0.703 | Score_C 1
+Day 189 | Range 1.110 | Score_C 1
+Day 211 | Range 1.132 | Score_C 1
+Day 192 | Range 0.948 | Score_C 1
+Day 193 | Range 0.872 | Score_C 1
+Day 200 | Range 0.827 | Score_C 1
+Day 190 | Range 1.003 | Score_C 1
+Day 196 | Range 0.715 | Score_C 1
+Day 191 | Range 0.796 | Score_C 1
+Day 201 | Range 0.778 | Score_C 1
+Day 210 | Range 0.899 | Score_C 1
+Day 195 | Range 0.894 | Score_C 1
+Day 215 | Range 0.924 | Score_C 1
+Day 212 | Range 0.968 | Score_C 1
+Day 209 | Range 2.438 | Score_C 1
+Day 213 | Range 0.972 | Score_C 1
+Day 214 | Range 0.899 | Score_C 1
+Day 205 | Range 1.201 | Score_C 1
+Day 218 | Range 1.457 | Score_C 1
+Day 217 | Range 1.258 | Score_C 1
+Day 207 | Range 0.933 | Score_C 1
+Day 228 | Range 1.446 | Score_C 1
+Day 220 | Range 0.738 | Score_C 1
+Day 226 | Range 0.922 | Score_C 1
+Day 222 | Range 1.399 | Score_C 1
+Day 223 | Range 0.995 | Score_C 1
+Day 238 | Range 0.949 | Score_C 1
+Day 224 | Range 0.984 | Score_C 1
+Day 240 | Range 0.861 | Score_C 1
+Day 225 | Range 0.806 | Score_C 1
+Day 251 | Range 1.009 | Score_C 1
+Day 234 | Range 1.234 | Score_C 1
+Day 230 | Range 1.250 | Score_C 1
+Day 229 | Range 0.770 | Score_C 1
+Day 237 | Range 1.017 | Score_C 1
+Day 232 | Range 0.930 | Score_C 1
+Day 244 | Range 1.700 | Score_C 1
+Day 239 | Range 1.169 | Score_C 1
+Day 252 | Range 1.995 | Score_C 1
+Day 242 | Range 0.810 | Score_C 1
+Day 235 | Range 1.175 | Score_C 1
+Day 236 | Range 0.793 | Score_C 1
+Day 257 | Range 1.829 | Score_C 1
+Day 256 | Range 0.942 | Score_C 1
+Day 247 | Range 0.759 | Score_C 1
+Day 248 | Range 1.159 | Score_C 1
+Day 258 | Range 1.016 | Score_C 1
+Day 255 | Range 1.071 | Score_C 1
+Day 259 | Range 0.702 | Score_C 1
+Day 260 | Range 1.016 | Score_C 1
+Day 264 | Range 0.738 | Score_C 1
+Day 263 | Range 1.085 | Score_C 1
+Day 261 | Range 1.366 | Score_C 1
+Day 262 | Range 1.579 | Score_C 1
+Day 276 | Range 1.007 | Score_C 1
+Day 275 | Range 2.121 | Score_C 1
+Day 265 | Range 1.004 | Score_C 1
+Day 277 | Range 2.052 | Score_C 1
+
+TOTAL SCORE (C): 175
+
+========================================================================================================================
+SECTION D — ATR > 0.01 and Vol > 0.06 and Trades > 8 → Score +2
+========================================================================================================================
+Day  25 | ATR 0.01092 | Vol 0.06025 | Trades 10 | Score_D 2
+Day  20 | ATR 0.01876 | Vol 0.12480 | Trades 12 | Score_D 2
+Day  19 | ATR 0.04428 | Vol 0.09047 | Trades  9 | Score_D 2
+Day  50 | ATR 0.01191 | Vol 0.16663 | Trades  9 | Score_D 2
+Day  10 | ATR 0.01121 | Vol 0.06006 | Trades 11 | Score_D 2
+Day  58 | ATR 0.01001 | Vol 0.07528 | Trades 12 | Score_D 2
+Day  68 | ATR 0.01874 | Vol 0.06699 | Trades  9 | Score_D 2
+Day  61 | ATR 0.01984 | Vol 0.10192 | Trades 20 | Score_D 2
+Day  72 | ATR 0.02039 | Vol 0.06144 | Trades 10 | Score_D 2
+Day 104 | ATR 0.02199 | Vol 0.48724 | Trades 175 | Score_D 2
+Day 107 | ATR 0.01582 | Vol 0.07083 | Trades  9 | Score_D 2
+Day 110 | ATR 0.01455 | Vol 0.41583 | Trades 33 | Score_D 2
+Day 123 | ATR 0.01149 | Vol 0.06001 | Trades 11 | Score_D 2
+Day 115 | ATR 0.01541 | Vol 0.12037 | Trades 18 | Score_D 2
+Day 128 | ATR 0.01885 | Vol 0.09684 | Trades  9 | Score_D 2
+Day 135 | ATR 0.02480 | Vol 0.06000 | Trades 14 | Score_D 2
+Day 137 | ATR 0.01826 | Vol 0.06004 | Trades 10 | Score_D 2
+Day 158 | ATR 0.02825 | Vol 0.16604 | Trades 13 | Score_D 2
+Day 162 | ATR 0.01076 | Vol 0.06009 | Trades 15 | Score_D 2
+Day 147 | ATR 0.02272 | Vol 0.06013 | Trades  9 | Score_D 2
+Day 165 | ATR 0.08412 | Vol 0.93059 | Trades 34 | Score_D 2
+Day 174 | ATR 0.02736 | Vol 0.06026 | Trades 19 | Score_D 2
+Day 182 | ATR 0.02092 | Vol 0.10130 | Trades 14 | Score_D 2
+Day 177 | ATR 0.02215 | Vol 0.18409 | Trades  9 | Score_D 2
+Day 194 | ATR 0.01167 | Vol 0.08813 | Trades 11 | Score_D 2
+Day 185 | ATR 0.02501 | Vol 0.06003 | Trades 16 | Score_D 2
+Day 209 | ATR 0.01001 | Vol 0.06033 | Trades 19 | Score_D 2
+Day 228 | ATR 0.01294 | Vol 0.06025 | Trades 11 | Score_D 2
+Day 234 | ATR 0.01242 | Vol 0.06009 | Trades  9 | Score_D 2
+Day 237 | ATR 0.04982 | Vol 0.12413 | Trades  9 | Score_D 2
+Day 263 | ATR 0.01837 | Vol 0.07542 | Trades 11 | Score_D 2
+Day 275 | ATR 0.01176 | Vol 0.06001 | Trades 10 | Score_D 2
+Day 277 | ATR 0.01965 | Vol 0.06134 | Trades 13 | Score_D 2
+
+TOTAL SCORE (D): 66
+
+========================================================================================================================
+OVERALL TOTAL SCORE SUMMARY
+========================================================================================================================
+Section A: 33
+Section B: 33
+Section C: 175
+Section D: 66
+
+GRAND TOTAL SCORE: 307
+========================================================================================================================
+END OF REPORT

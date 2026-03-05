@@ -1,0 +1,72 @@
+ FEATURE: V5  - could be raw volume.
+------------------------------------------------------------
+DATA QUALITY:
+  Total Rows:           11,706,714
+  Valid Points:          11,706,714 (100.00%)
+  NaN Count:             0 (0.00%)
+
+------------------------------------------------------------
+DISTRIBUTIONAL CHARACTERISTICS:
+  Mean (μ):              0.1240
+  Std. Deviation (σ):    0.3312
+  Skewness:              14.6995
+  Kurtosis:              372.2727
+  Spike Threshold (μ + 3σ): 1.1176
+
+  Observation:
+    - Strongly right-skewed and extremely heavy-tailed distribution.
+    - Most values remain below 0.3; few extreme outliers exceed 1.0.
+    - Highly non-Gaussian; behavior suggests intermittent burst activity.
+
+------------------------------------------------------------
+TEMPORAL BEHAVIOR:
+  Pattern:               Sparse and spiky, non-periodic
+  Clustering:            Present (bursts of spikes followed by calm intervals)
+  Baseline Level:        Near 0
+  Periodicity:           None detected (irregular timing of spikes)
+
+  Observation:
+    - Quiet periods interrupted by isolated clusters of volume bursts.
+    - Evidence of short-term memory or volatility clustering.
+    - Spike activity not constant — driven by event-based market behavior.
+
+------------------------------------------------------------
+PRICE RELATIONSHIP:
+  Pearson Corr (V5, Price Returns):     +0.0009
+  Spearman Corr (V5, Price):            +0.0032
+  Temporal Alignment:                   Mixed (spikes occur in both rising and falling price phases)
+
+  Observation:
+    - No strong directional correlation with price.
+    - Spikes sometimes align with local turning points, but not consistently.
+    - Indicates V5 reflects activity intensity rather than price momentum.
+
+------------------------------------------------------------
+MODEL RECOMMENDATION:
+  Suitable Models:
+    (1) GARCH(1,1): For volatility persistence and conditional variance modeling.
+        Parameters: ω (baseline variance), α (shock response), β (persistence)
+    (2) Hawkes Process: For self-exciting clustering of spike events.
+        Parameters: μ (base intensity), α (excitation), β (decay)
+    (3) 2-State HMM: For regime identification (calm vs active states).
+
+  Observation:
+    - GARCH can estimate persistence of volatility in V5.
+    - Hawkes can quantify how one spike increases probability of future spikes.
+    - HMM can segment time periods by intensity regime.
+
+------------------------------------------------------------
+INTERPRETATION:
+  Feature Nature:        Volume-activity burst indicator
+  Statistical Type:      Heavy-tailed, heteroskedastic, non-stationary
+  Behavior Summary:      Event-driven, sparse, clustered bursts
+  Relationship to Price: Non-directional; potential volatility proxy
+  Model Parameters:      Persistence (α+β), base rate (μ), decay (β)
+  Predictive Role:       Potential indicator for volatility regime changes
+
+------------------------------------------------------------
+COMMENTS:
+  - V5 exhibits extreme skew and kurtosis, confirming rare but powerful outliers.
+  - Represents sudden surges in market activity rather than sustained volume.
+  - Recommended for volatility or impact-based feature groups.
+------------------------------------------------------------

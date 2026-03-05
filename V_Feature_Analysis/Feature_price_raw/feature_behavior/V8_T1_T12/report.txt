@@ -1,0 +1,80 @@
+ FEATURE: V8_T1_T12
+------------------------------------------------------------
+DATA QUALITY:
+  Total Rows:           11,706,714
+  Valid Points:          11,706,714 (100.00%)
+  NaN Count:             0 (0.00%)
+
+------------------------------------------------------------
+DISTRIBUTIONAL CHARACTERISTICS:
+  Mean (μ):              0.0027
+  Std. Deviation (σ):    0.0212
+  Skewness:              35.4509
+  Kurtosis:              1441.5924
+  Spike Threshold (μ + 3σ): 0.0663
+
+  Observation:
+    - The feature values are tightly centered near zero with extremely small standard deviation.
+    - Exceptionally high skewness (35.45) and kurtosis (1441.59) indicate a **heavy-tailed, asymmetric microspike distribution**.
+    - Majority of samples are near baseline, with rare, short-lived upward jumps.
+    - The spike threshold (≈ 0.0663) confirms that even small absolute deviations are statistically significant.
+    - Distribution type: **micro-scale heavy-tailed process**, non-Gaussian, right-skewed.
+
+------------------------------------------------------------
+TEMPORAL BEHAVIOR:
+  Pattern:               Near-stationary baseline with sparse microspikes
+  Spike Count:           65 spikes detected (Day 10)
+  Spike Threshold:       0.07
+  Clustering:            Low; spikes occur in early session bursts, then fade
+  Baseline Level:        ~0
+  Periodicity:           None (short-lived initial activity)
+
+  Observation:
+    - V8_T1_T12 remains almost flat for most of the day.
+    - Spikes are highly localized in time — mostly concentrated near the market open.
+    - Amplitude remains low, suggesting these are **microstructure adjustments** or **order book microbursts**.
+    - No strong recurrence or persistent volatility pattern observed.
+
+------------------------------------------------------------
+PRICE RELATIONSHIP:
+  Pearson Corr (V8_T1_T12, Price Returns):  +0.0021
+  Temporal Alignment:                        Spikes coincide with short bursts in early price volatility.
+  Qualitative Behavior:                      Weakly positive; may reflect initial market activity or liquidity imbalance.
+
+  Observation:
+    - Correlation magnitude is negligible, indicating that V8_T1_T12 does not drive price returns directly.
+    - Spikes are observed when price is adjusting post open — may reflect **transient order flow intensity**.
+    - Suggests *reactive microstructure adjustment feature* rather than predictive volume behavior.
+
+------------------------------------------------------------
+MODEL RECOMMENDATION:
+  Suitable Models:
+    (1) **Jump-Diffusion or Poisson Process Models**
+        → To represent rare, discrete, independent spike events.
+    (2) **Hidden Markov Model (HMM)**
+        → To detect regime shifts between "flat" and "active" microspike states.
+    (3) **Zero-Inflated or Sparse Regression Models**
+        → For features with dominant zeros or near-zeros and occasional bursts.
+
+  Observation:
+    - GARCH-type models not suitable (no persistence).
+    - EVT feasible but may lack statistical stability due to very few extreme values.
+    - HMM or Poisson mixture modeling offers better interpretability for sparse micro-events.
+
+------------------------------------------------------------
+INTERPRETATION:
+  Feature Nature:        Microstructure microspike indicator
+  Statistical Type:      Sparse, non-stationary, asymmetric
+  Behavior Summary:      Mostly flat with isolated, short-lived bursts
+  Relationship to Price: Weak positive, likely reactive
+  Model Parameters:      λ (Poisson rate), μ, σ (baseline noise), p(spike) (HMM transition)
+  Predictive Role:       Low; auxiliary signal for early-session market activity detection
+
+------------------------------------------------------------
+COMMENTS:
+  - V8_T1_T12 captures **micro-level liquidity or imbalance spikes**, likely from short-term order flow surges.
+  - The extreme skewness and kurtosis confirm a **rare-event heavy-tail process** at very small magnitudes.
+  - Its temporal concentration near market open suggests **event-driven structure** rather than persistent volatility.
+  - Best modeled using **discrete-event or sparse process models (HMM, Poisson, or Jump models)**.
+  - Recommended for feature sets aiming to characterize **market microstructure noise** or **burst initiation points**.
+------------------------------------------------------------

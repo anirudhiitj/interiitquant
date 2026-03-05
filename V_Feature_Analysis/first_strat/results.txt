@@ -1,0 +1,7 @@
+========== OVERALL PERFORMANCE ==========
+Days processed:        113
+Total Return:          3.63%
+Annualized Return:     8.28%
+Maximum Drawdown:      5.17%
+Overall Calmar Ratio:  1.603
+=========================================

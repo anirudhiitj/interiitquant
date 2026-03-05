@@ -1,0 +1,677 @@
+====================================================================================================
+XGBOOST TRAINING RESULTS (FAST MODE - 40GB)
+====================================================================================================
+
+
+TB_t0.07_l30
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9812
+Test Accuracy: 0.9837
+
+TOP 10 FEATURES:
+  1. VB4_T4: 0.081583
+  2. VB4_T6: 0.079317
+  3. VB4_T5: 0.045844
+  4. VB4_T7: 0.024262
+  5. VB4_T8: 0.019435
+  6. VB4_T3: 0.012263
+  7. BB6_T5: 0.009850
+  8. PB10_T12: 0.008465
+  9. PB11_T10: 0.007408
+  10. BB13_T10: 0.007289
+
+
+TB_t0.07_l60
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9488
+Test Accuracy: 0.9486
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.093338
+  2. VB4_T4: 0.050827
+  3. VB4_T5: 0.046354
+  4. VB4_T7: 0.043480
+  5. VB4_T8: 0.023616
+  6. VB4_T3: 0.021003
+  7. VB4_T9: 0.014481
+  8. BB5_T12: 0.008205
+  9. BB6_T7: 0.008023
+  10. BB6_T2: 0.007530
+
+
+TB_t0.07_l120
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8867
+Test Accuracy: 0.8630
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.080634
+  2. VB4_T5: 0.067578
+  3. VB4_T7: 0.053785
+  4. VB4_T8: 0.047777
+  5. VB4_T4: 0.017742
+  6. VB4_T3: 0.014983
+  7. VB4_T9: 0.012350
+  8. BB6_T9: 0.007927
+  9. BB14_T5: 0.007681
+  10. VB4_T11: 0.007643
+
+
+TB_t0.07_l300
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.7916
+Test Accuracy: 0.6662
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.098900
+  2. VB4_T7: 0.075520
+  3. VB4_T5: 0.051761
+  4. VB4_T8: 0.040924
+  5. VB4_T4: 0.029836
+  6. VB4_T3: 0.020518
+  7. VB4_T9: 0.015377
+  8. BB5_T4: 0.014347
+  9. VB4_T12: 0.008756
+  10. VB4_T11: 0.008636
+
+
+TB_t0.07_l600
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.7721
+Test Accuracy: 0.5417
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.116582
+  2. VB4_T7: 0.093438
+  3. VB4_T5: 0.041022
+  4. VB4_T8: 0.026284
+  5. VB4_T4: 0.022751
+  6. VB4_T9: 0.012774
+  7. VB4_T3: 0.011337
+  8. BB5_T4: 0.009145
+  9. VB4_T11: 0.008955
+  10. BB6_T12: 0.008646
+
+
+TB_t0.07_l900
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8010
+Test Accuracy: 0.5143
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.121544
+  2. VB4_T7: 0.070255
+  3. VB4_T5: 0.053503
+  4. VB4_T4: 0.028312
+  5. VB4_T3: 0.012201
+  6. BB5_T12: 0.010132
+  7. VB4_T11: 0.009526
+  8. VB4_T10: 0.009363
+  9. BB6_T5: 0.009197
+  10. BB5_T2: 0.008678
+
+
+TB_t0.07_l1200
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8086
+Test Accuracy: 0.4975
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.119320
+  2. VB4_T5: 0.051177
+  3. VB4_T7: 0.049948
+  4. VB4_T4: 0.022325
+  5. VB4_T3: 0.012153
+  6. BB5_T9: 0.011915
+  7. BB5_T12: 0.011070
+  8. BB5_T7: 0.010977
+  9. BB5_T8: 0.010858
+  10. VB4_T11: 0.010688
+
+
+TB_t0.07_l2000
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8011
+Test Accuracy: 0.4881
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.109312
+  2. VB4_T5: 0.066443
+  3. VB4_T4: 0.041693
+  4. VB4_T7: 0.027966
+  5. BB5_T11: 0.019562
+  6. VB4_T11: 0.013841
+  7. VB4_T3: 0.013464
+  8. BB14_T6: 0.009864
+  9. VB4_T10: 0.009411
+  10. BB4_T12: 0.009368
+
+
+TB_t0.07_l2400
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8099
+Test Accuracy: 0.4796
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.084092
+  2. VB4_T5: 0.062694
+  3. VB4_T4: 0.045605
+  4. VB4_T7: 0.025524
+  5. VB4_T3: 0.019497
+  6. BB5_T9: 0.015437
+  7. VB4_T11: 0.015091
+  8. BB14_T5: 0.012961
+  9. BB5_T11: 0.012736
+  10. BB5_T5: 0.012405
+
+
+TB_t0.07_l3600
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8267
+Test Accuracy: 0.4776
+
+TOP 10 FEATURES:
+  1. VB4_T5: 0.081519
+  2. VB4_T4: 0.061102
+  3. VB4_T6: 0.048860
+  4. PB10_T3: 0.025116
+  5. VB4_T3: 0.018600
+  6. VB4_T7: 0.018553
+  7. VB4_T11: 0.017939
+  8. BB5_T7: 0.010877
+  9. BB5_T12: 0.010350
+  10. PB3_T12: 0.010148
+
+
+TB_t0.10_l600
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8343
+Test Accuracy: 0.6692
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.075370
+  2. VB4_T7: 0.072452
+  3. VB4_T8: 0.038817
+  4. VB4_T5: 0.028809
+  5. VB4_T4: 0.022694
+  6. BB5_T7: 0.016120
+  7. VB4_T9: 0.014904
+  8. BB5_T10: 0.014372
+  9. BB5_T6: 0.012923
+  10. VB4_T11: 0.009468
+
+
+TB_t0.10_l900
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8231
+Test Accuracy: 0.5894
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.068703
+  2. VB4_T7: 0.064786
+  3. VB4_T5: 0.060683
+  4. VB4_T8: 0.035015
+  5. VB4_T4: 0.024646
+  6. BB5_T9: 0.013751
+  7. VB4_T3: 0.013290
+  8. BB5_T10: 0.012156
+  9. BB5_T11: 0.011916
+  10. VB4_T9: 0.011007
+
+
+TB_t0.10_l1200
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8302
+Test Accuracy: 0.5526
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.098310
+  2. VB4_T7: 0.058843
+  3. VB4_T5: 0.043145
+  4. VB4_T4: 0.023972
+  5. BB5_T7: 0.018877
+  6. VB4_T8: 0.018748
+  7. BB6_T11: 0.011607
+  8. VB4_T3: 0.010311
+  9. BB15_T5: 0.009516
+  10. VB4_T11: 0.009364
+
+
+TB_t0.10_l2000
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8557
+Test Accuracy: 0.5131
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.108898
+  2. VB4_T5: 0.051667
+  3. VB4_T7: 0.038148
+  4. VB4_T4: 0.028213
+  5. BB6_T7: 0.015987
+  6. BB5_T12: 0.013440
+  7. VB4_T3: 0.012844
+  8. BB5_T7: 0.012281
+  9. PB10_T12: 0.010569
+  10. BB6_T11: 0.010537
+
+
+TB_t0.10_l2400
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8644
+Test Accuracy: 0.5136
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.102853
+  2. VB4_T5: 0.063344
+  3. VB4_T4: 0.026738
+  4. VB4_T7: 0.026726
+  5. BB4_T3: 0.011965
+  6. VB4_T3: 0.011733
+  7. BB15_T10: 0.011477
+  8. PB10_T12: 0.011202
+  9. VB4_T11: 0.010202
+  10. BB15_T5: 0.010051
+
+
+TB_t0.10_l3600
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.8641
+Test Accuracy: 0.4800
+
+TOP 10 FEATURES:
+  1. VB4_T6: 0.087406
+  2. VB4_T5: 0.077612
+  3. VB4_T4: 0.030446
+  4. VB4_T7: 0.018528
+  5. VB4_T3: 0.017077
+  6. BB5_T10: 0.015929
+  7. BB15_T9: 0.012175
+  8. VB4_T11: 0.011758
+  9. PB10_T12: 0.011586
+  10. BB6_T12: 0.011491
+
+
+TB_t0.30_l1200
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9876
+Test Accuracy: 0.9327
+
+TOP 10 FEATURES:
+  1. VB4_T9: 0.033650
+  2. VB4_T10: 0.029116
+  3. VB4_T5: 0.027240
+  4. VB4_T7: 0.022938
+  5. BB6_T6: 0.018816
+  6. VB4_T6: 0.018187
+  7. BB14_T10: 0.014338
+  8. BB5_T6: 0.013652
+  9. PB11_T4: 0.013543
+  10. VB4_T8: 0.012841
+
+
+TB_t0.30_l2000
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9768
+Test Accuracy: 0.8712
+
+TOP 10 FEATURES:
+  1. VB4_T9: 0.039039
+  2. VB4_T7: 0.033107
+  3. VB4_T6: 0.027221
+  4. VB4_T8: 0.024475
+  5. VB4_T5: 0.017897
+  6. BB14_T6: 0.016698
+  7. BB5_T11: 0.014784
+  8. BB14_T12: 0.014228
+  9. VB4_T12: 0.012598
+  10. BB5_T2: 0.012444
+
+
+TB_t0.30_l2400
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9732
+Test Accuracy: 0.8417
+
+TOP 10 FEATURES:
+  1. BB5_T2: 0.033049
+  2. VB4_T6: 0.031623
+  3. VB4_T9: 0.030810
+  4. VB4_T5: 0.029832
+  5. VB4_T7: 0.028969
+  6. VB4_T8: 0.028552
+  7. BB5_T12: 0.020314
+  8. BB14_T12: 0.015539
+  9. VB4_T10: 0.014017
+  10. BB5_T8: 0.013393
+
+
+TB_t0.30_l3600
+--------------------------------------------------
+Type: CLASSIFICATION
+Best params: {'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 150}
+Train Accuracy: 0.9646
+Test Accuracy: 0.7790
+
+TOP 10 FEATURES:
+  1. VB4_T8: 0.041340
+  2. VB4_T7: 0.041079
+  3. VB4_T6: 0.039571
+  4. VB4_T5: 0.031478
+  5. VB4_T9: 0.030005
+  6. BB14_T12: 0.016197
+  7. BB14_T6: 0.015230
+  8. BB6_T3: 0.013912
+  9. PB10_T6: 0.013630
+  10. PB10_T12: 0.013483
+
+
+Slope_l5
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.001663
+Test RMSE: 0.001658
+Test R²: -0.0151
+
+TOP 10 FEATURES:
+  1. BB15_T5: 0.014044
+  2. BB14_T5: 0.011288
+  3. PB11_T1: 0.010811
+  4. BB6_T5: 0.010288
+  5. BB14_T6: 0.009912
+  6. PB3_T3: 0.009750
+  7. PB3_T6: 0.009387
+  8. PB3_T4: 0.008036
+  9. PB15_T9: 0.007996
+  10. PB15_T11: 0.007856
+
+
+Slope_l30
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000610
+Test RMSE: 0.000694
+Test R²: -0.0534
+
+TOP 10 FEATURES:
+  1. BB6_T2: 0.015057
+  2. BB6_T11: 0.014740
+  3. BB13_T11: 0.011851
+  4. PB15_T12: 0.011202
+  5. PB15_T9: 0.010963
+  6. PB3_T9: 0.010563
+  7. BB15_T2: 0.010542
+  8. BB5_T8: 0.010035
+  9. BB14_T9: 0.009765
+  10. BB15_T11: 0.009106
+
+
+Slope_l60
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000395
+Test RMSE: 0.000495
+Test R²: -0.0804
+
+TOP 10 FEATURES:
+  1. BB14_T9: 0.020144
+  2. PB3_T7: 0.019896
+  3. BB15_T10: 0.016416
+  4. PB15_T12: 0.013448
+  5. BB6_T12: 0.012197
+  6. PB10_T8: 0.010620
+  7. BB4_T12: 0.010015
+  8. BB5_T6: 0.009926
+  9. PB15_T11: 0.009876
+  10. PB15_T9: 0.009628
+
+
+Slope_l90
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000305
+Test RMSE: 0.000405
+Test R²: -0.0913
+
+TOP 10 FEATURES:
+  1. BB6_T11: 0.019162
+  2. PB14_T11: 0.014549
+  3. BB14_T10: 0.014036
+  4. BB15_T3: 0.013150
+  5. PB3_T10: 0.012910
+  6. BB5_T4: 0.012130
+  7. BB15_T10: 0.011315
+  8. BB13_T8: 0.011135
+  9. PB15_T9: 0.010664
+  10. BB15_T4: 0.010424
+
+
+Slope_l120
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000250
+Test RMSE: 0.000351
+Test R²: -0.1001
+
+TOP 10 FEATURES:
+  1. BB5_T1: 0.021946
+  2. BB14_T8: 0.016115
+  3. PB3_T10: 0.015579
+  4. BB13_T8: 0.012468
+  5. BB5_T7: 0.011953
+  6. BB14_T10: 0.010705
+  7. PB10_T12: 0.010087
+  8. PB10_T8: 0.009903
+  9. PB14_T11: 0.009891
+  10. PB15_T11: 0.009887
+
+
+Slope_l180
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000187
+Test RMSE: 0.000287
+Test R²: -0.1188
+
+TOP 10 FEATURES:
+  1. BB13_T9: 0.025659
+  2. BB6_T11: 0.014200
+  3. BB5_T8: 0.013378
+  4. PB15_T9: 0.013107
+  5. PB3_T9: 0.013095
+  6. PB14_T11: 0.012955
+  7. BB5_T11: 0.012739
+  8. BB6_T5: 0.012668
+  9. PB15_T8: 0.012144
+  10. PB10_T12: 0.011530
+
+
+Slope_l300
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000128
+Test RMSE: 0.000227
+Test R²: -0.1625
+
+TOP 10 FEATURES:
+  1. BB15_T3: 0.033863
+  2. BB14_T11: 0.027442
+  3. PB3_T10: 0.024293
+  4. BB6_T7: 0.019443
+  5. BB5_T11: 0.014558
+  6. PB10_T12: 0.013358
+  7. PB15_T12: 0.013290
+  8. PB15_T9: 0.013209
+  9. PB3_T11: 0.012784
+  10. BB4_T10: 0.012291
+
+
+Slope_l600
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000080
+Test RMSE: 0.000157
+Test R²: -0.1178
+
+TOP 10 FEATURES:
+  1. BB14_T10: 0.039939
+  2. BB15_T5: 0.019058
+  3. PB14_T12: 0.017986
+  4. PB3_T9: 0.016787
+  5. BB5_T6: 0.016777
+  6. BB6_T11: 0.015828
+  7. PB15_T12: 0.015429
+  8. BB4_T10: 0.014603
+  9. BB6_T10: 0.014444
+  10. PB10_T11: 0.014158
+
+
+Slope_l900
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000064
+Test RMSE: 0.000130
+Test R²: -0.1555
+
+TOP 10 FEATURES:
+  1. BB5_T9: 0.062428
+  2. BB15_T9: 0.042664
+  3. BB15_T8: 0.032077
+  4. PB14_T12: 0.029143
+  5. PB10_T2: 0.027197
+  6. PB10_T4: 0.015311
+  7. BB14_T2: 0.013664
+  8. BB13_T8: 0.012922
+  9. BB5_T10: 0.012815
+  10. BB14_T10: 0.011349
+
+
+Slope_l1200
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000056
+Test RMSE: 0.000111
+Test R²: -0.1511
+
+TOP 10 FEATURES:
+  1. PB14_T12: 0.034260
+  2. PB3_T10: 0.025775
+  3. BB4_T5: 0.024344
+  4. BB14_T8: 0.022511
+  5. BB13_T8: 0.021915
+  6. PB10_T8: 0.018434
+  7. VB5_T11: 0.018245
+  8. PB11_T5: 0.015843
+  9. PB10_T11: 0.015273
+  10. BB15_T12: 0.014851
+
+
+Slope_l1800
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000047
+Test RMSE: 0.000090
+Test R²: -0.2095
+
+TOP 10 FEATURES:
+  1. PB10_T1: 0.052792
+  2. BB6_T11: 0.037898
+  3. PB14_T12: 0.027274
+  4. BB14_T2: 0.024348
+  5. BB14_T1: 0.019756
+  6. PB10_T2: 0.015759
+  7. BB6_T12: 0.015528
+  8. BB15_T5: 0.014808
+  9. BB4_T11: 0.012956
+  10. BB15_T9: 0.012879
+
+
+Slope_l2400
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 200}
+Train RMSE: 0.000041
+Test RMSE: 0.000079
+Test R²: -0.2677
+
+TOP 10 FEATURES:
+  1. BB5_T11: 0.152886
+  2. PB6_T9: 0.023136
+  3. BB14_T3: 0.021109
+  4. BB6_T3: 0.018000
+  5. BB14_T8: 0.017354
+  6. BB15_T11: 0.016929
+  7. BB6_T12: 0.016894
+  8. BB15_T12: 0.016704
+  9. PB10_T1: 0.016598
+  10. BB13_T12: 0.015612
+
+
+Slope_l3600
+--------------------------------------------------
+Type: REGRESSION
+Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}
+Train RMSE: 0.000035
+Test RMSE: 0.000066
+Test R²: -0.4094
+
+TOP 10 FEATURES:
+  1. PB10_T8: 0.045301
+  2. PB1_T12: 0.040367
+  3. BB15_T5: 0.031866
+  4. PB14_T12: 0.029585
+  5. PB11_T9: 0.023823
+  6. BB6_T9: 0.018600
+  7. BB15_T9: 0.018584
+  8. PB6_T9: 0.017332
+  9. PB11_T11: 0.016390
+  10. BB15_T7: 0.015772
+

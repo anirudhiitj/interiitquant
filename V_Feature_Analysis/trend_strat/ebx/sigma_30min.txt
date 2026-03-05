@@ -1,0 +1,136 @@
+================================================================================
+SIGMA ANALYSIS SUMMARY (30-MIN SIGMA)
+================================================================================
+
+Total days analyzed: 510
+
+Average σ (30-min) across all 510 days: 0.08
+Min σ (30-min): 0.01
+Max σ (30-min): 0.80
+Median σ (30-min): 0.07
+
+================================================================================
+SIGMA DISTRIBUTION
+================================================================================
+Days with σ > avg (0.08):  179 ( 36.5%)
+Days with σ < avg (0.08):  311 ( 63.5%)
+
+================================================================================
+MEAN DISTRIBUTION
+================================================================================
+Days with μ > 100:  249 ( 50.8%)
+Days with μ < 100:  241 ( 49.2%)
+
+================================================================================
+SIGMA ANALYSIS - WHEN μ > 100
+================================================================================
+Average σ (30-min):   0.08
+Days with σ > avg:   87 /  249 ( 34.9%)
+Avg Price@30min:          100.17
+Avg (High - Price@30min):   0.45
+Avg (Price@30min - Low):    0.52
+
+================================================================================
+SIGMA ANALYSIS - WHEN μ < 100
+================================================================================
+Average σ (30-min):   0.09
+Days with σ > avg:   92 /  241 ( 38.2%)
+Avg Price@30min:           99.85
+Avg (High - Price@30min):   0.49
+Avg (Price@30min - Low):    0.53
+
+================================================================================
+4-WAY DIVISION ANALYSIS
+================================================================================
+
+--------------------------------------------------------------------------------
+DIVISION: μ>100, σ>avg
+--------------------------------------------------------------------------------
+Number of days:                           87 ( 17.8% of total)
+Days that close above 100:                62 /   87 ( 71.3%)
+Days with area above 100 > 95%:           54 /   87 ( 62.1%)
+Days where price never goes below 100:     3 /   87 (  3.4%)
+Avg μ (first 30-min):                    100.18
+Avg σ (first 30-min):                      0.14
+Avg Price@30min:                         100.30
+Avg (High - Price@30min):                  0.65
+Avg (Price@30min - Low):                   0.67
+Avg % area above 100:                    79.07%
+Avg % area below 100:                    20.93%
+Avg % of rest-of-day price > 100:        76.99%
+Avg % of rest-of-day price < 100:        22.96%
+Avg closing price:                       100.41
+
+--------------------------------------------------------------------------------
+DIVISION: μ>100, σ<avg
+--------------------------------------------------------------------------------
+Number of days:                          162 ( 33.1% of total)
+Days that close above 100:                99 /  162 ( 61.1%)
+Days with area above 100 > 95%:           65 /  162 ( 40.1%)
+Days where price never goes below 100:     5 /  162 (  3.1%)
+Avg μ (first 30-min):                    100.07
+Avg σ (first 30-min):                      0.05
+Avg Price@30min:                         100.10
+Avg (High - Price@30min):                  0.34
+Avg (Price@30min - Low):                   0.44
+Avg % area above 100:                    62.64%
+Avg % area below 100:                    37.36%
+Avg % of rest-of-day price > 100:        61.55%
+Avg % of rest-of-day price < 100:        38.30%
+Avg closing price:                       100.09
+
+--------------------------------------------------------------------------------
+DIVISION: μ<100, σ<avg
+--------------------------------------------------------------------------------
+Number of days:                          149 ( 30.4% of total)
+Days that close above 100:                84 /  149 ( 56.4%)
+Days with area below 100 > 95%:           49 /  149 ( 32.9%)
+Days where price never goes above 100:     0 /  149 (  0.0%)
+Avg μ (first 30-min):                     99.94
+Avg σ (first 30-min):                      0.05
+Avg Price@30min:                          99.93
+Avg (High - Price@30min):                  0.41
+Avg (Price@30min - Low):                   0.40
+Avg % area above 100:                    46.48%
+Avg % area below 100:                    53.52%
+Avg % of rest-of-day price > 100:        47.57%
+Avg % of rest-of-day price < 100:        52.28%
+Avg closing price:                        99.99
+
+--------------------------------------------------------------------------------
+DIVISION: μ<100, σ>avg
+--------------------------------------------------------------------------------
+Number of days:                           92 ( 18.8% of total)
+Days that close above 100:                28 /   92 ( 30.4%)
+Days with area below 100 > 95%:           51 /   92 ( 55.4%)
+Days where price never goes above 100:     1 /   92 (  1.1%)
+Avg μ (first 30-min):                     99.83
+Avg σ (first 30-min):                      0.14
+Avg Price@30min:                          99.71
+Avg (High - Price@30min):                  0.62
+Avg (Price@30min - Low):                   0.73
+Avg % area above 100:                    25.87%
+Avg % area below 100:                    74.13%
+Avg % of rest-of-day price > 100:        28.45%
+Avg % of rest-of-day price < 100:        71.48%
+Avg closing price:                        99.58
+
+================================================================================
+OVERALL STATISTICS
+================================================================================
+Total days closing above 100:            273 /  490 ( 55.7%)
+Total days area above 100 > 95%:         165 /  490 ( 33.7%)
+Total days area below 100 > 95%:         135 /  490 ( 27.6%)
+Total days price never crosses 100:        9 /  490 (  1.8%)
+Avg μ (first 30-min, all days):          100.01
+Avg σ (first 30-min, all days):            0.08
+Avg Price@30min (all days):              100.01
+Avg (High - Price@30min, all days):        0.47
+Avg (Price@30min - Low, all days):         0.52
+Avg % area above 100:                    53.74%
+Avg % area below 100:                    46.26%
+Avg % of rest-of-day price > 100:        53.82%
+Avg % of rest-of-day price < 100:        46.06%
+Avg closing price (all days):            100.02
+
+================================================================================

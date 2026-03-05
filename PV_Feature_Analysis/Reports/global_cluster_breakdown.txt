@@ -1,0 +1,1838 @@
+====================================================================================================
+HIERARCHICAL CLUSTERING RESULTS - FEATURE REDUNDANCY REMOVAL
+====================================================================================================
+
+Analysis Date: 2025-10-21 03:07:44
+Original features: 97
+Clusters created: 30
+Selected features: 30
+Reduction: 69.1%
+Linkage method: ward
+
+====================================================================================================
+DETAILED CLUSTER BREAKDOWN
+====================================================================================================
+Each cluster shows all features and highlights the selected representative
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 1
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9526
+Predictive Power (Selected Feature Score): 0.5666
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B4_T7
+  Rank in Cluster: 1/6
+  Composite Score: 0.566623
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.281366
+    Spearman Correlation:  +0.733675
+    Kendall Tau:           +0.541090
+    Mutual Information:    0.406847
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.281366
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B4_T9
+  Rank in Cluster: 2/6
+  Composite Score: 0.549106
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.233695
+    Spearman Correlation:  +0.730700
+    Kendall Tau:           +0.537099
+    Mutual Information:    0.395740
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.233695
+
+Feature: PV3_B4_T10
+  Rank in Cluster: 3/6
+  Composite Score: 0.544681
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.219016
+    Spearman Correlation:  +0.728189
+    Kendall Tau:           +0.536516
+    Mutual Information:    0.398436
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.219016
+
+Feature: PV3_B4_T11
+  Rank in Cluster: 4/6
+  Composite Score: 0.543411
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.214296
+    Spearman Correlation:  +0.727032
+    Kendall Tau:           +0.530911
+    Mutual Information:    0.403123
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.214296
+
+Feature: PV3_B4_T12
+  Rank in Cluster: 5/6
+  Composite Score: 0.533218
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.201706
+    Spearman Correlation:  +0.720857
+    Kendall Tau:           +0.522572
+    Mutual Information:    0.381389
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.201706
+
+Feature: PV3_B4_T8
+  Rank in Cluster: 6/6
+  Composite Score: 0.354424
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.248326
+    Spearman Correlation:  +0.732054
+    Kendall Tau:           +0.541123
+    Mutual Information:    0.397014
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.248326
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 2
+----------------------------------------------------------------------------------------------------
+Size: 2 features
+Cohesion (Avg Internal Correlation): 0.9356
+Predictive Power (Selected Feature Score): 0.6845
+
+
+>>> SELECTED (Rank 1/2) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B4_T1
+  Rank in Cluster: 1/2
+  Composite Score: 0.684467
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.632776
+    Spearman Correlation:  +0.748159
+    Kendall Tau:           +0.555842
+    Mutual Information:    0.447090
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.632776
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B4_T2
+  Rank in Cluster: 2/2
+  Composite Score: 0.460959
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.567644
+    Spearman Correlation:  +0.741956
+    Kendall Tau:           +0.551974
+    Mutual Information:    0.435387
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.567644
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 3
+----------------------------------------------------------------------------------------------------
+Size: 4 features
+Cohesion (Avg Internal Correlation): 0.9507
+Predictive Power (Selected Feature Score): 0.6246
+
+
+>>> SELECTED (Rank 1/4) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B4_T3
+  Rank in Cluster: 1/4
+  Composite Score: 0.624561
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.467200
+    Spearman Correlation:  +0.737521
+    Kendall Tau:           +0.539098
+    Mutual Information:    0.414937
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.467200
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B4_T4
+  Rank in Cluster: 2/4
+  Composite Score: 0.604202
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.403480
+    Spearman Correlation:  +0.736076
+    Kendall Tau:           +0.538591
+    Mutual Information:    0.410420
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.403480
+
+Feature: PV3_B4_T5
+  Rank in Cluster: 3/4
+  Composite Score: 0.594754
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.367740
+    Spearman Correlation:  +0.735427
+    Kendall Tau:           +0.539735
+    Mutual Information:    0.416868
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.367740
+
+Feature: PV3_B4_T6
+  Rank in Cluster: 4/4
+  Composite Score: 0.586021
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.344174
+    Spearman Correlation:  +0.735038
+    Kendall Tau:           +0.538882
+    Mutual Information:    0.409368
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.344174
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 4
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9481
+Predictive Power (Selected Feature Score): 0.4757
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B3_T8
+  Rank in Cluster: 1/6
+  Composite Score: 0.475661
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.180378
+    Spearman Correlation:  +0.602533
+    Kendall Tau:           +0.437616
+    Mutual Information:    0.286400
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.180378
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B3_T9
+  Rank in Cluster: 2/6
+  Composite Score: 0.469807
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.168110
+    Spearman Correlation:  +0.601685
+    Kendall Tau:           +0.436589
+    Mutual Information:    0.276889
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.168110
+
+Feature: PV3_B3_T10
+  Rank in Cluster: 3/6
+  Composite Score: 0.465454
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.155766
+    Spearman Correlation:  +0.600271
+    Kendall Tau:           +0.434823
+    Mutual Information:    0.275938
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.155766
+
+Feature: PV3_B3_T11
+  Rank in Cluster: 4/6
+  Composite Score: 0.463906
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.151737
+    Spearman Correlation:  +0.599592
+    Kendall Tau:           +0.432069
+    Mutual Information:    0.276295
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.151737
+
+Feature: PV3_B3_T7
+  Rank in Cluster: 5/6
+  Composite Score: 0.284772
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.207837
+    Spearman Correlation:  +0.603436
+    Kendall Tau:           +0.441647
+    Mutual Information:    0.287846
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.207837
+
+Feature: PV3_B3_T12
+  Rank in Cluster: 6/6
+  Composite Score: 0.258065
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.142272
+    Spearman Correlation:  +0.595166
+    Kendall Tau:           +0.426848
+    Mutual Information:    0.268328
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.142272
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 5
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9789
+Predictive Power (Selected Feature Score): 0.3463
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B2_T11
+  Rank in Cluster: 1/6
+  Composite Score: 0.346341
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.099226
+    Spearman Correlation:  +0.347674
+    Kendall Tau:           +0.245864
+    Mutual Information:    0.112258
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.099226
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B2_T10
+  Rank in Cluster: 2/6
+  Composite Score: 0.345916
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.102032
+    Spearman Correlation:  +0.348054
+    Kendall Tau:           +0.235625
+    Mutual Information:    0.110666
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.102032
+
+Feature: PV3_B2_T12
+  Rank in Cluster: 3/6
+  Composite Score: 0.341043
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.092733
+    Spearman Correlation:  +0.344153
+    Kendall Tau:           +0.236126
+    Mutual Information:    0.103899
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.092733
+
+Feature: PV3_B1_T11
+  Rank in Cluster: 4/6
+  Composite Score: 0.286183
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.069172
+    Spearman Correlation:  +0.192322
+    Kendall Tau:           +0.139565
+    Mutual Information:    0.065052
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.069172
+
+Feature: PV3_B1_T10
+  Rank in Cluster: 5/6
+  Composite Score: 0.285499
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.071236
+    Spearman Correlation:  +0.193036
+    Kendall Tau:           +0.128667
+    Mutual Information:    0.063274
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.071236
+
+Feature: PV3_B1_T12
+  Rank in Cluster: 6/6
+  Composite Score: 0.280090
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.064270
+    Spearman Correlation:  +0.186898
+    Kendall Tau:           +0.120082
+    Mutual Information:    0.057109
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.064270
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 6
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9688
+Predictive Power (Selected Feature Score): 0.3595
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B2_T7
+  Rank in Cluster: 1/6
+  Composite Score: 0.359532
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.137639
+    Spearman Correlation:  +0.348721
+    Kendall Tau:           +0.239137
+    Mutual Information:    0.122910
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.137639
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B1_T7
+  Rank in Cluster: 2/6
+  Composite Score: 0.296631
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.096467
+    Spearman Correlation:  +0.195880
+    Kendall Tau:           +0.124537
+    Mutual Information:    0.080307
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.096467
+
+Feature: PV3_B2_T9
+  Rank in Cluster: 3/6
+  Composite Score: 0.153495
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.110613
+    Spearman Correlation:  +0.348590
+    Kendall Tau:           +0.249476
+    Mutual Information:    0.128226
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.110613
+
+Feature: PV3_B2_T8
+  Rank in Cluster: 4/6
+  Composite Score: 0.151582
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.118937
+    Spearman Correlation:  +0.348785
+    Kendall Tau:           +0.240653
+    Mutual Information:    0.110392
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.118937
+
+Feature: PV3_B1_T8
+  Rank in Cluster: 5/6
+  Composite Score: 0.091536
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.083317
+    Spearman Correlation:  +0.195176
+    Kendall Tau:           +0.135511
+    Mutual Information:    0.069771
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.083317
+
+Feature: PV3_B1_T9
+  Rank in Cluster: 6/6
+  Composite Score: 0.091053
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.077451
+    Spearman Correlation:  +0.194421
+    Kendall Tau:           +0.131042
+    Mutual Information:    0.079146
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.077451
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 7
+----------------------------------------------------------------------------------------------------
+Size: 2 features
+Cohesion (Avg Internal Correlation): 0.9242
+Predictive Power (Selected Feature Score): 0.5912
+
+
+>>> SELECTED (Rank 1/2) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B3_T1
+  Rank in Cluster: 1/2
+  Composite Score: 0.591210
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.515961
+    Spearman Correlation:  +0.625702
+    Kendall Tau:           +0.457037
+    Mutual Information:    0.327888
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.515961
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B3_T2
+  Rank in Cluster: 2/2
+  Composite Score: 0.366320
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.455152
+    Spearman Correlation:  +0.615503
+    Kendall Tau:           +0.445381
+    Mutual Information:    0.310681
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.455152
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 8
+----------------------------------------------------------------------------------------------------
+Size: 4 features
+Cohesion (Avg Internal Correlation): 0.9316
+Predictive Power (Selected Feature Score): 0.4430
+
+
+>>> SELECTED (Rank 1/4) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B2_T1
+  Rank in Cluster: 1/4
+  Composite Score: 0.443045
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.362115
+    Spearman Correlation:  +0.379115
+    Kendall Tau:           +0.272774
+    Mutual Information:    0.156551
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.362115
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B2_T2
+  Rank in Cluster: 2/4
+  Composite Score: 0.223024
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.314507
+    Spearman Correlation:  +0.363958
+    Kendall Tau:           +0.261608
+    Mutual Information:    0.148596
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.314507
+
+Feature: PV3_B1_T1
+  Rank in Cluster: 3/4
+  Composite Score: 0.161702
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.258961
+    Spearman Correlation:  +0.224822
+    Kendall Tau:           +0.155750
+    Mutual Information:    0.117372
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.258961
+
+Feature: PV3_B1_T2
+  Rank in Cluster: 4/4
+  Composite Score: 0.140090
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.223322
+    Spearman Correlation:  +0.210733
+    Kendall Tau:           +0.148291
+    Mutual Information:    0.080590
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.223322
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 9
+----------------------------------------------------------------------------------------------------
+Size: 4 features
+Cohesion (Avg Internal Correlation): 0.9461
+Predictive Power (Selected Feature Score): 0.5076
+
+
+>>> SELECTED (Rank 1/4) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B3_T5
+  Rank in Cluster: 1/4
+  Composite Score: 0.507552
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.280534
+    Spearman Correlation:  +0.605138
+    Kendall Tau:           +0.443375
+    Mutual Information:    0.290132
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.280534
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B3_T3
+  Rank in Cluster: 2/4
+  Composite Score: 0.334181
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.366173
+    Spearman Correlation:  +0.608387
+    Kendall Tau:           +0.443791
+    Mutual Information:    0.291363
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.366173
+
+Feature: PV3_B3_T4
+  Rank in Cluster: 3/4
+  Composite Score: 0.317957
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.310970
+    Spearman Correlation:  +0.606109
+    Kendall Tau:           +0.443623
+    Mutual Information:    0.295410
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.310970
+
+Feature: PV3_B3_T6
+  Rank in Cluster: 4/4
+  Composite Score: 0.300848
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.260322
+    Spearman Correlation:  +0.604602
+    Kendall Tau:           +0.436836
+    Mutual Information:    0.290737
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.260322
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 10
+----------------------------------------------------------------------------------------------------
+Size: 8 features
+Cohesion (Avg Internal Correlation): 0.9440
+Predictive Power (Selected Feature Score): 0.3964
+
+
+>>> SELECTED (Rank 1/8) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B2_T3
+  Rank in Cluster: 1/8
+  Composite Score: 0.396377
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.248600
+    Spearman Correlation:  +0.354048
+    Kendall Tau:           +0.242944
+    Mutual Information:    0.133466
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.248600
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B2_T4
+  Rank in Cluster: 2/8
+  Composite Score: 0.382883
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.209121
+    Spearman Correlation:  +0.351092
+    Kendall Tau:           +0.248588
+    Mutual Information:    0.125347
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.209121
+
+Feature: PV3_B2_T6
+  Rank in Cluster: 3/8
+  Composite Score: 0.370565
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.173709
+    Spearman Correlation:  +0.349386
+    Kendall Tau:           +0.240574
+    Mutual Information:    0.122589
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.173709
+
+Feature: PV3_B1_T3
+  Rank in Cluster: 4/8
+  Composite Score: 0.322221
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.175318
+    Spearman Correlation:  +0.201720
+    Kendall Tau:           +0.126622
+    Mutual Information:    0.083099
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.175318
+
+Feature: PV3_B2_T5
+  Rank in Cluster: 5/8
+  Composite Score: 0.175060
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.187718
+    Spearman Correlation:  +0.349941
+    Kendall Tau:           +0.243272
+    Mutual Information:    0.122149
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.187718
+
+Feature: PV3_B1_T4
+  Rank in Cluster: 6/8
+  Composite Score: 0.114858
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.147024
+    Spearman Correlation:  +0.198926
+    Kendall Tau:           +0.142630
+    Mutual Information:    0.083512
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.147024
+
+Feature: PV3_B1_T5
+  Rank in Cluster: 7/8
+  Composite Score: 0.107464
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.131776
+    Spearman Correlation:  +0.197736
+    Kendall Tau:           +0.132284
+    Mutual Information:    0.075778
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.131776
+
+Feature: PV3_B1_T6
+  Rank in Cluster: 8/8
+  Composite Score: 0.104397
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.121924
+    Spearman Correlation:  +0.197094
+    Kendall Tau:           +0.126549
+    Mutual Information:    0.078732
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.121924
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 11
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0336
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T8
+  Rank in Cluster: 1/1
+  Composite Score: 0.033551
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.051754
+    Spearman Correlation:  -0.062637
+    Kendall Tau:           -0.041577
+    Mutual Information:    0.006698
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.051754
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 12
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.2365
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T9
+  Rank in Cluster: 1/1
+  Composite Score: 0.236458
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.053482
+    Spearman Correlation:  -0.061583
+    Kendall Tau:           -0.047092
+    Mutual Information:    0.016940
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.053482
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 13
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.2324
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T7
+  Rank in Cluster: 1/1
+  Composite Score: 0.232362
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.047046
+    Spearman Correlation:  -0.061471
+    Kendall Tau:           -0.044036
+    Mutual Information:    0.007753
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.047046
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 14
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0356
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T10
+  Rank in Cluster: 1/1
+  Composite Score: 0.035554
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.056892
+    Spearman Correlation:  -0.058120
+    Kendall Tau:           -0.025862
+    Mutual Information:    0.021384
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.056892
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 15
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0377
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T11
+  Rank in Cluster: 1/1
+  Composite Score: 0.037743
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.059456
+    Spearman Correlation:  -0.058167
+    Kendall Tau:           -0.039146
+    Mutual Information:    0.021793
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.059456
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 16
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0399
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T12
+  Rank in Cluster: 1/1
+  Composite Score: 0.039856
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.061543
+    Spearman Correlation:  -0.042298
+    Kendall Tau:           -0.027251
+    Mutual Information:    0.051040
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.061543
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 17
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0163
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T1
+  Rank in Cluster: 1/1
+  Composite Score: 0.016346
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.018923
+    Spearman Correlation:  -0.040236
+    Kendall Tau:           -0.022905
+    Mutual Information:    0.001658
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.018923
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 18
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.2191
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T2
+  Rank in Cluster: 1/1
+  Composite Score: 0.219117
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.022793
+    Spearman Correlation:  -0.042500
+    Kendall Tau:           -0.029729
+    Mutual Information:    0.004029
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.022793
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 19
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0264
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T5
+  Rank in Cluster: 1/1
+  Composite Score: 0.026408
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.035708
+    Spearman Correlation:  -0.054084
+    Kendall Tau:           -0.037533
+    Mutual Information:    0.005629
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.035708
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 20
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0287
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T6
+  Rank in Cluster: 1/1
+  Composite Score: 0.028687
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.038601
+    Spearman Correlation:  -0.056758
+    Kendall Tau:           -0.044573
+    Mutual Information:    0.006491
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.038601
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 21
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.2253
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T4
+  Rank in Cluster: 1/1
+  Composite Score: 0.225309
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.032379
+    Spearman Correlation:  -0.052117
+    Kendall Tau:           -0.036442
+    Mutual Information:    0.007641
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.032379
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 22
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.0218
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV1_T3
+  Rank in Cluster: 1/1
+  Composite Score: 0.021757
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   -0.027795
+    Spearman Correlation:  -0.046958
+    Kendall Tau:           -0.027758
+    Mutual Information:    0.006254
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  -0.027795
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 23
+----------------------------------------------------------------------------------------------------
+Size: 1 features
+Cohesion (Avg Internal Correlation): 1.0000
+Predictive Power (Selected Feature Score): 0.2250
+
+
+>>> SELECTED (Rank 1/1) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV2
+  Rank in Cluster: 1/1
+  Composite Score: 0.224957
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.238476
+    Spearman Correlation:  +0.351290
+    Kendall Tau:           +0.251274
+    Mutual Information:    0.290145
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.238476
+****************************************************************************************************
+>>> END SELECTED <<<
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 24
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9550
+Predictive Power (Selected Feature Score): 0.5282
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B5_T7
+  Rank in Cluster: 1/6
+  Composite Score: 0.528195
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.244379
+    Spearman Correlation:  +0.677123
+    Kendall Tau:           +0.495953
+    Mutual Information:    0.349309
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.244379
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B5_T8
+  Rank in Cluster: 2/6
+  Composite Score: 0.517144
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.217610
+    Spearman Correlation:  +0.675866
+    Kendall Tau:           +0.484492
+    Mutual Information:    0.341195
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.217610
+
+Feature: PV3_B5_T10
+  Rank in Cluster: 3/6
+  Composite Score: 0.508291
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.194975
+    Spearman Correlation:  +0.672690
+    Kendall Tau:           +0.484899
+    Mutual Information:    0.333852
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.194975
+
+Feature: PV3_B5_T11
+  Rank in Cluster: 4/6
+  Composite Score: 0.507969
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.191725
+    Spearman Correlation:  +0.671889
+    Kendall Tau:           +0.494934
+    Mutual Information:    0.332903
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.191725
+
+Feature: PV3_B5_T9
+  Rank in Cluster: 5/6
+  Composite Score: 0.312930
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.206368
+    Spearman Correlation:  +0.674729
+    Kendall Tau:           +0.492959
+    Mutual Information:    0.333888
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.206368
+
+Feature: PV3_B5_T12
+  Rank in Cluster: 6/6
+  Composite Score: 0.300570
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.182821
+    Spearman Correlation:  +0.667496
+    Kendall Tau:           +0.481697
+    Mutual Information:    0.320274
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.182821
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 25
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9744
+Predictive Power (Selected Feature Score): 0.3884
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B6_T11
+  Rank in Cluster: 1/6
+  Composite Score: 0.388401
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.137669
+    Spearman Correlation:  +0.427854
+    Kendall Tau:           +0.293570
+    Mutual Information:    0.160862
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.137669
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B6_T10
+  Rank in Cluster: 2/6
+  Composite Score: 0.388248
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.139858
+    Spearman Correlation:  +0.427624
+    Kendall Tau:           +0.306025
+    Mutual Information:    0.150815
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.139858
+
+Feature: PV3_B6_T12
+  Rank in Cluster: 3/6
+  Composite Score: 0.384776
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.132545
+    Spearman Correlation:  +0.428414
+    Kendall Tau:           +0.294669
+    Mutual Information:    0.149312
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.132545
+
+Feature: PV3_B7_T10
+  Rank in Cluster: 4/6
+  Composite Score: 0.322822
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.105160
+    Spearman Correlation:  +0.270500
+    Kendall Tau:           +0.179650
+    Mutual Information:    0.096044
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.105160
+
+Feature: PV3_B7_T11
+  Rank in Cluster: 5/6
+  Composite Score: 0.322686
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.103557
+    Spearman Correlation:  +0.270928
+    Kendall Tau:           +0.177198
+    Mutual Information:    0.098569
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.103557
+
+Feature: PV3_B7_T12
+  Rank in Cluster: 6/6
+  Composite Score: 0.321744
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.100285
+    Spearman Correlation:  +0.272903
+    Kendall Tau:           +0.184750
+    Mutual Information:    0.093017
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.100285
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 26
+----------------------------------------------------------------------------------------------------
+Size: 6 features
+Cohesion (Avg Internal Correlation): 0.9691
+Predictive Power (Selected Feature Score): 0.4006
+
+
+>>> SELECTED (Rank 1/6) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B6_T7
+  Rank in Cluster: 1/6
+  Composite Score: 0.400575
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.176608
+    Spearman Correlation:  +0.426766
+    Kendall Tau:           +0.292003
+    Mutual Information:    0.165197
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.176608
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B6_T8
+  Rank in Cluster: 2/6
+  Composite Score: 0.394171
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.156459
+    Spearman Correlation:  +0.427149
+    Kendall Tau:           +0.296719
+    Mutual Information:    0.160656
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.156459
+
+Feature: PV3_B6_T9
+  Rank in Cluster: 3/6
+  Composite Score: 0.393746
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.148144
+    Spearman Correlation:  +0.427306
+    Kendall Tau:           +0.297570
+    Mutual Information:    0.170421
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.148144
+
+Feature: PV3_B7_T7
+  Rank in Cluster: 4/6
+  Composite Score: 0.332891
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.133701
+    Spearman Correlation:  +0.268637
+    Kendall Tau:           +0.187617
+    Mutual Information:    0.101456
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.133701
+
+Feature: PV3_B7_T9
+  Rank in Cluster: 5/6
+  Composite Score: 0.324261
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.111466
+    Spearman Correlation:  +0.269677
+    Kendall Tau:           +0.178872
+    Mutual Information:    0.094995
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.111466
+
+Feature: PV3_B7_T8
+  Rank in Cluster: 6/6
+  Composite Score: 0.127471
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.117940
+    Spearman Correlation:  +0.269295
+    Kendall Tau:           +0.174383
+    Mutual Information:    0.103961
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.117940
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 27
+----------------------------------------------------------------------------------------------------
+Size: 2 features
+Cohesion (Avg Internal Correlation): 0.9318
+Predictive Power (Selected Feature Score): 0.6347
+
+
+>>> SELECTED (Rank 1/2) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B5_T1
+  Rank in Cluster: 1/2
+  Composite Score: 0.634713
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.555668
+    Spearman Correlation:  +0.693606
+    Kendall Tau:           +0.516962
+    Mutual Information:    0.387979
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.555668
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B5_T2
+  Rank in Cluster: 2/2
+  Composite Score: 0.607945
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.493582
+    Spearman Correlation:  +0.686120
+    Kendall Tau:           +0.498088
+    Mutual Information:    0.364188
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.493582
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 28
+----------------------------------------------------------------------------------------------------
+Size: 4 features
+Cohesion (Avg Internal Correlation): 0.9372
+Predictive Power (Selected Feature Score): 0.4909
+
+
+>>> SELECTED (Rank 1/4) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B6_T1
+  Rank in Cluster: 1/4
+  Composite Score: 0.490891
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.425920
+    Spearman Correlation:  +0.451338
+    Kendall Tau:           +0.320835
+    Mutual Information:    0.203820
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.425920
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B7_T1
+  Rank in Cluster: 2/4
+  Composite Score: 0.406777
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.334113
+    Spearman Correlation:  +0.289418
+    Kendall Tau:           +0.202070
+    Mutual Information:    0.142265
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.334113
+
+Feature: PV3_B7_T2
+  Rank in Cluster: 3/4
+  Composite Score: 0.386826
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.290185
+    Spearman Correlation:  +0.277710
+    Kendall Tau:           +0.192904
+    Mutual Information:    0.124689
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.290185
+
+Feature: PV3_B6_T2
+  Rank in Cluster: 4/4
+  Composite Score: 0.267655
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.372868
+    Spearman Correlation:  +0.438280
+    Kendall Tau:           +0.302488
+    Mutual Information:    0.189447
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.372868
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 29
+----------------------------------------------------------------------------------------------------
+Size: 4 features
+Cohesion (Avg Internal Correlation): 0.9511
+Predictive Power (Selected Feature Score): 0.5760
+
+
+>>> SELECTED (Rank 1/4) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B5_T3
+  Rank in Cluster: 1/4
+  Composite Score: 0.576041
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.401850
+    Spearman Correlation:  +0.680786
+    Kendall Tau:           +0.493014
+    Mutual Information:    0.350138
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.401850
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B5_T4
+  Rank in Cluster: 2/4
+  Composite Score: 0.556830
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.346308
+    Spearman Correlation:  +0.679183
+    Kendall Tau:           +0.485404
+    Mutual Information:    0.342806
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.346308
+
+Feature: PV3_B5_T5
+  Rank in Cluster: 3/4
+  Composite Score: 0.551245
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.315768
+    Spearman Correlation:  +0.678543
+    Kendall Tau:           +0.506319
+    Mutual Information:    0.350870
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.315768
+
+Feature: PV3_B5_T6
+  Rank in Cluster: 4/4
+  Composite Score: 0.543111
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.296182
+    Spearman Correlation:  +0.678191
+    Kendall Tau:           +0.494252
+    Mutual Information:    0.345964
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.296182
+
+
+----------------------------------------------------------------------------------------------------
+CLUSTER 30
+----------------------------------------------------------------------------------------------------
+Size: 8 features
+Cohesion (Avg Internal Correlation): 0.9469
+Predictive Power (Selected Feature Score): 0.4244
+
+
+>>> SELECTED (Rank 1/8) <<<
+****************************************************************************************************
+[SELECTED] Feature: PV3_B6_T4
+  Rank in Cluster: 1/8
+  Composite Score: 0.424428
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.254455
+    Spearman Correlation:  +0.427310
+    Kendall Tau:           +0.292446
+    Mutual Information:    0.166927
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.254455
+****************************************************************************************************
+>>> END SELECTED <<<
+
+Feature: PV3_B6_T5
+  Rank in Cluster: 2/8
+  Composite Score: 0.417841
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.230876
+    Spearman Correlation:  +0.426708
+    Kendall Tau:           +0.299937
+    Mutual Information:    0.166216
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.230876
+
+Feature: PV3_B6_T6
+  Rank in Cluster: 3/8
+  Composite Score: 0.415756
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.215756
+    Spearman Correlation:  +0.426488
+    Kendall Tau:           +0.311107
+    Mutual Information:    0.173104
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.215756
+
+Feature: PV3_B7_T4
+  Rank in Cluster: 4/8
+  Composite Score: 0.351702
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.194937
+    Spearman Correlation:  +0.268508
+    Kendall Tau:           +0.171728
+    Mutual Information:    0.111734
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.194937
+
+Feature: PV3_B7_T6
+  Rank in Cluster: 5/8
+  Composite Score: 0.342752
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.164333
+    Spearman Correlation:  +0.268047
+    Kendall Tau:           +0.192877
+    Mutual Information:    0.102775
+    Granger Causality:     YES
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.164333
+
+Feature: PV3_B6_T3
+  Rank in Cluster: 6/8
+  Composite Score: 0.238409
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.298141
+    Spearman Correlation:  +0.429519
+    Kendall Tau:           +0.290185
+    Mutual Information:    0.170223
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.298141
+
+Feature: PV3_B7_T3
+  Rank in Cluster: 7/8
+  Composite Score: 0.164064
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.229725
+    Spearman Correlation:  +0.270222
+    Kendall Tau:           +0.189121
+    Mutual Information:    0.110947
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.229725
+
+Feature: PV3_B7_T5
+  Rank in Cluster: 8/8
+  Composite Score: 0.146620
+  
+  CORRELATION METRICS:
+    Pearson Correlation:   +0.176334
+    Spearman Correlation:  +0.268132
+    Kendall Tau:           +0.183855
+    Mutual Information:    0.108539
+    Granger Causality:     NO
+    Best Lag:              +0 periods
+    Best Lag Correlation:  +0.176334
+
+
+====================================================================================================
+SUMMARY: ALL SELECTED FEATURES
+====================================================================================================
+
+
+ 1. PV3_B4_T1
+     Score: 0.684467 | Pearson: +0.6328 | Spearman: +0.7482 | MI: 0.4471 | Granger: YES
+
+ 2. PV3_B5_T1
+     Score: 0.634713 | Pearson: +0.5557 | Spearman: +0.6936 | MI: 0.3880 | Granger: YES
+
+ 3. PV3_B4_T3
+     Score: 0.624561 | Pearson: +0.4672 | Spearman: +0.7375 | MI: 0.4149 | Granger: YES
+
+ 4. PV3_B3_T1
+     Score: 0.591210 | Pearson: +0.5160 | Spearman: +0.6257 | MI: 0.3279 | Granger: YES
+
+ 5. PV3_B5_T3
+     Score: 0.576041 | Pearson: +0.4019 | Spearman: +0.6808 | MI: 0.3501 | Granger: YES
+
+ 6. PV3_B4_T7
+     Score: 0.566623 | Pearson: +0.2814 | Spearman: +0.7337 | MI: 0.4068 | Granger: YES
+
+ 7. PV3_B5_T7
+     Score: 0.528195 | Pearson: +0.2444 | Spearman: +0.6771 | MI: 0.3493 | Granger: YES
+
+ 8. PV3_B3_T5
+     Score: 0.507552 | Pearson: +0.2805 | Spearman: +0.6051 | MI: 0.2901 | Granger: YES
+
+ 9. PV3_B6_T1
+     Score: 0.490891 | Pearson: +0.4259 | Spearman: +0.4513 | MI: 0.2038 | Granger: YES
+
+10. PV3_B3_T8
+     Score: 0.475661 | Pearson: +0.1804 | Spearman: +0.6025 | MI: 0.2864 | Granger: YES
+
+11. PV3_B2_T1
+     Score: 0.443045 | Pearson: +0.3621 | Spearman: +0.3791 | MI: 0.1566 | Granger: YES
+
+12. PV3_B6_T4
+     Score: 0.424428 | Pearson: +0.2545 | Spearman: +0.4273 | MI: 0.1669 | Granger: YES
+
+13. PV3_B6_T7
+     Score: 0.400575 | Pearson: +0.1766 | Spearman: +0.4268 | MI: 0.1652 | Granger: YES
+
+14. PV3_B2_T3
+     Score: 0.396377 | Pearson: +0.2486 | Spearman: +0.3540 | MI: 0.1335 | Granger: YES
+
+15. PV3_B6_T11
+     Score: 0.388401 | Pearson: +0.1377 | Spearman: +0.4279 | MI: 0.1609 | Granger: YES
+
+16. PV3_B2_T7
+     Score: 0.359532 | Pearson: +0.1376 | Spearman: +0.3487 | MI: 0.1229 | Granger: YES
+
+17. PV3_B2_T11
+     Score: 0.346341 | Pearson: +0.0992 | Spearman: +0.3477 | MI: 0.1123 | Granger: YES
+
+18. PV1_T9
+     Score: 0.236458 | Pearson: -0.0535 | Spearman: -0.0616 | MI: 0.0169 | Granger: YES
+
+19. PV1_T7
+     Score: 0.232362 | Pearson: -0.0470 | Spearman: -0.0615 | MI: 0.0078 | Granger: YES
+
+20. PV1_T4
+     Score: 0.225309 | Pearson: -0.0324 | Spearman: -0.0521 | MI: 0.0076 | Granger: YES
+
+21. PV2
+     Score: 0.224957 | Pearson: +0.2385 | Spearman: +0.3513 | MI: 0.2901 | Granger: NO
+
+22. PV1_T2
+     Score: 0.219117 | Pearson: -0.0228 | Spearman: -0.0425 | MI: 0.0040 | Granger: YES
+
+23. PV1_T12
+     Score: 0.039856 | Pearson: -0.0615 | Spearman: -0.0423 | MI: 0.0510 | Granger: NO
+
+24. PV1_T11
+     Score: 0.037743 | Pearson: -0.0595 | Spearman: -0.0582 | MI: 0.0218 | Granger: NO
+
+25. PV1_T10
+     Score: 0.035554 | Pearson: -0.0569 | Spearman: -0.0581 | MI: 0.0214 | Granger: NO
+
+26. PV1_T8
+     Score: 0.033551 | Pearson: -0.0518 | Spearman: -0.0626 | MI: 0.0067 | Granger: NO
+
+27. PV1_T6
+     Score: 0.028687 | Pearson: -0.0386 | Spearman: -0.0568 | MI: 0.0065 | Granger: NO
+
+28. PV1_T5
+     Score: 0.026408 | Pearson: -0.0357 | Spearman: -0.0541 | MI: 0.0056 | Granger: NO
+
+29. PV1_T3
+     Score: 0.021757 | Pearson: -0.0278 | Spearman: -0.0470 | MI: 0.0063 | Granger: NO
+
+30. PV1_T1
+     Score: 0.016346 | Pearson: -0.0189 | Spearman: -0.0402 | MI: 0.0017 | Granger: NO
+
+====================================================================================================
+SELECTED FEATURES (Python list format)
+====================================================================================================
+
+selected_features = [
+    'PV3_B4_T1',
+    'PV3_B5_T1',
+    'PV3_B4_T3',
+    'PV3_B3_T1',
+    'PV3_B5_T3',
+    'PV3_B4_T7',
+    'PV3_B5_T7',
+    'PV3_B3_T5',
+    'PV3_B6_T1',
+    'PV3_B3_T8',
+    'PV3_B2_T1',
+    'PV3_B6_T4',
+    'PV3_B6_T7',
+    'PV3_B2_T3',
+    'PV3_B6_T11',
+    'PV3_B2_T7',
+    'PV3_B2_T11',
+    'PV1_T9',
+    'PV1_T7',
+    'PV1_T4',
+    'PV2',
+    'PV1_T2',
+    'PV1_T12',
+    'PV1_T11',
+    'PV1_T10',
+    'PV1_T8',
+    'PV1_T6',
+    'PV1_T5',
+    'PV1_T3',
+    'PV1_T1',
+]
+
+====================================================================================================
+CLUSTER ASSIGNMENTS
+====================================================================================================
+
+Cluster  1 ( 6 features) -> Selected: PV3_B4_T7
+Cluster  2 ( 2 features) -> Selected: PV3_B4_T1
+Cluster  3 ( 4 features) -> Selected: PV3_B4_T3
+Cluster  4 ( 6 features) -> Selected: PV3_B3_T8
+Cluster  5 ( 6 features) -> Selected: PV3_B2_T11
+Cluster  6 ( 6 features) -> Selected: PV3_B2_T7
+Cluster  7 ( 2 features) -> Selected: PV3_B3_T1
+Cluster  8 ( 4 features) -> Selected: PV3_B2_T1
+Cluster  9 ( 4 features) -> Selected: PV3_B3_T5
+Cluster 10 ( 8 features) -> Selected: PV3_B2_T3
+Cluster 11 ( 1 features) -> Selected: PV1_T8
+Cluster 12 ( 1 features) -> Selected: PV1_T9
+Cluster 13 ( 1 features) -> Selected: PV1_T7
+Cluster 14 ( 1 features) -> Selected: PV1_T10
+Cluster 15 ( 1 features) -> Selected: PV1_T11
+Cluster 16 ( 1 features) -> Selected: PV1_T12
+Cluster 17 ( 1 features) -> Selected: PV1_T1
+Cluster 18 ( 1 features) -> Selected: PV1_T2
+Cluster 19 ( 1 features) -> Selected: PV1_T5
+Cluster 20 ( 1 features) -> Selected: PV1_T6
+Cluster 21 ( 1 features) -> Selected: PV1_T4
+Cluster 22 ( 1 features) -> Selected: PV1_T3
+Cluster 23 ( 1 features) -> Selected: PV2
+Cluster 24 ( 6 features) -> Selected: PV3_B5_T7
+Cluster 25 ( 6 features) -> Selected: PV3_B6_T11
+Cluster 26 ( 6 features) -> Selected: PV3_B6_T7
+Cluster 27 ( 2 features) -> Selected: PV3_B5_T1
+Cluster 28 ( 4 features) -> Selected: PV3_B6_T1
+Cluster 29 ( 4 features) -> Selected: PV3_B5_T3
+Cluster 30 ( 8 features) -> Selected: PV3_B6_T4
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

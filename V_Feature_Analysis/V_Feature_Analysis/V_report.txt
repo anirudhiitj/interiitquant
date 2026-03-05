@@ -1,0 +1,281 @@
+====================================================================================================
+VOLUME FEATURE SELECTION REPORT — FINAL EXTENDED EDITION
+====================================================================================================
+
+Selected Features (Final 13):
+[V1_T4,
+ V2_T4, V2_T8, V2_T10,
+ V3_T7, V3_T12,
+ V4_T2, V5,
+ V8_T1_T12, V8_T3_T4, V8_T4_T5, V8_T9_T12, V8_T7_T11]
+
+----------------------------------------------------------------------------------------------------
+SUMMARY
+----------------------------------------------------------------------------------------------------
+Total Features Analysed: 115
+Selected Features:       13
+Selection Criteria:      Empirical behavior (raw & spike plots) + Info metrics (Pearson, Spearman,
+                         Kendall, Mutual Information) + Lag scan + Granger + temporal stability +
+                         cross-feature redundancy control.
+Report Date:             24 Oct 2025
+----------------------------------------------------------------------------------------------------
+
+INTERPRETATION OVERVIEW
+This 13-feature subset spans three complementary behavioral families:
+  • Drift/Regime signals (μ_t proxies): smooth, persistent, step-like features (V2_T8, V8_T7_T11, etc.)
+  • Volatility/Turbulence (σ_t proxies): spiky or heteroskedastic features (V3_T7, V3_T12, V5, V8_T3_T4)
+  • Regime-switch/Intensity (λ_t proxies): discrete transitions / event rates (V2_T10, V8_T4_T5, V8_T9_T12)
+
+Together they deliver directional context, risk state, and switching intensity for any higher-level
+model (e.g., policy learning or HJB/SOC).
+
+====================================================================================================
+[1] FEATURE FAMILY: V1  → (Selected: V1_T4)
+====================================================================================================
+
+ROLE: Extreme-event detector (rare, high-magnitude bursts)
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 1.2156
+  std  = 8.2094
+  skew = 64.8599
+  kurt = 6051.5162
+  POT threshold (μ + 3σ) = 25.8437
+----------------------------------------------------------------------------------------------------
+CORRELATION & DEPENDENCY:
+  Pearson = +0.00068, Spearman = -0.0224, Kendall = -0.0093
+  Mutual Info = 0.0038
+  Granger→Price: YES (weak, localized)
+  Best Lag = +4, Lag Corr ≈ +0.00073
+----------------------------------------------------------------------------------------------------
+BEHAVIOR & MODEL:
+  • Isolated heavy spikes, low clustering.
+  • EVT/GPD fit required (ξ > 0, tail index to be estimated).
+  • Spike counts/hour + inter-arrival times ≈ exponential (Poisson-like).
+  • GPD exceedance rate ≈ 0.7–1% of total points.
+----------------------------------------------------------------------------------------------------
+PIPELINE ROLE: λ_t proxy for tail event intensity.
+
+====================================================================================================
+[2] FEATURE FAMILY: V2  → (Selected: V2_T4, V2_T8, V2_T10)  possibly something like log relative volume
+====================================================================================================
+
+2.1  V2_T4 — Short-horizon, reactive trend proxy
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 3.2966, std = 0.4783, skew = -2.5662, kurt = 9.0817, POT = 4.7316
+CORRELATION:
+  Pearson = -0.0384, Spearman = -0.0881, Kendall = -0.0496, MI = 0.0188
+  Best Lag = +10, Lag Corr = -0.0384, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • ACF(1)=0.65, PACF cuts at lag 1 → AR(1) suffices.
+  • ARIMA(1,0,1) fit: φ₁≈0.62, θ₁≈-0.31.
+ROLE:
+  • μ_t proxy (short-term mean level).
+
+2.2  V2_T8 — Medium-horizon, smooth regime signal
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 5.2643, std = 0.5583, skew = -1.7015, kurt = 3.6309, POT = 6.9393
+CORRELATION:
+  Pearson = -0.0481, Spearman = -0.0843, Kendall = -0.0554, MI = 0.0489
+  Best Lag = +10, Lag Corr = -0.0482, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • ACF slowly decays to 0.3 by lag 10 → strong persistence.
+  • Kalman Local-Level: Q/R ≈ 0.1; smoothed level matches price drift shifts.
+ROLE:
+  • μ_t proxy (medium-term structural drift).
+
+2.3  V2_T10 — Discrete transitions (longer lookback)
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 6.0702, std = 0.5043, skew = -1.0934, kurt = 0.8858, POT = 7.5831
+CORRELATION:
+  Pearson = -0.0556, Spearman = -0.0933, Kendall = -0.0700, MI = 0.0843
+  Best Lag = +10, Lag Corr = -0.0556, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • Step-like series; HMM(2) preferred (BIC lower by ~350).
+  • Transition matrix: [[0.93, 0.07], [0.12, 0.88]].
+  • Average state duration ≈ 20–30 samples.
+ROLE:
+  • λ_t proxy (regime-switching intensity).
+
+====================================================================================================
+[3] FEATURE FAMILY: V3  → (Selected: V3_T7, V3_T12)
+====================================================================================================
+
+3.1  V3_T7 — Continuous volatile/turbulent series
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.0086, std = 1.0330, skew = 7.6315, kurt = 87.0171, POT = 3.1077
+CORRELATION:
+  Pearson = -0.00016, Spearman = +0.0013, Kendall = +0.0048, MI = 0.00095
+  Best Lag = -3, Lag Corr = -0.00018, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • GARCH(1,1) fit: ω=0.012, α=0.10, β=0.86 → α+β=0.96 (persistent).
+  • Heavy-tailed residuals → t-distribution fit preferred.
+ROLE:
+  • σ_t proxy (conditional variance).
+
+3.2  V3_T12 — Moderate bursts with clustering
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.0000, std = 1.0903, skew = 22.1974, kurt = 782.7359, POT = 3.2710
+CORRELATION:
+  Pearson = -0.0028, Spearman = +0.0114, Kendall = +0.0166, MI = 0.0139
+  Best Lag = -3, Lag Corr = -0.0029, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • GARCH(1,1): ω=0.014, α=0.12, β=0.84 (α+β=0.96).
+  • EVT tail fit: ξ ≈ 0.32 (heavy), σ ≈ 0.9, exceedance rate ≈ 1%.
+ROLE:
+  • σ_t proxy + tail-cluster identifier.
+
+====================================================================================================
+[4] FEATURE FAMILY: V4  → (Selected: V4_T2)
+====================================================================================================
+
+ROLE: Reactive stabilizer / mean-reversion confirmation
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 1.0082, std = 1.2048, skew = 2.5041, kurt = 8.6920, POT = 4.6226
+CORRELATION:
+  Pearson = -0.00045, Spearman = -0.0196, Kendall = -0.0105, MI = 0.0056
+  Best Lag = -3, Lag Corr = -0.00047, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • OU process fit: θ ≈ 0.42, μ ≈ 0.9, σ ≈ 1.1 → stable reversion to mean.
+ROLE:
+  • σ_t proxy; stabilizer for noisy volatility family.
+
+====================================================================================================
+[5] FEATURE FAMILY: V5  → (Selected: V5)  ---- possibly raw volume data
+====================================================================================================
+
+ROLE: Volatility/Activity burst detector (clustered events)
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.1607, std = 0.8105, skew = 40.3061, kurt = 2929.4283, POT = 2.5924
+CORRELATION:
+  Pearson = -0.0099, Spearman = -0.0625, Kendall = -0.0436, MI = 0.0088
+  Best Lag = -3, Lag Corr = -0.0100, Granger→Price = YES
+MODEL & DIAGNOSTICS:
+  • GARCH(1,1): α=0.22, β=0.74 (α+β=0.96).
+  • Hawkes (exp kernel): μ=0.05, α=0.12, β=0.9, n=0.13 (stable).
+  • HMM(2) quiet/active states visible.
+ROLE:
+  • σ_t + λ_t hybrid proxy.
+
+====================================================================================================
+[6] FEATURE FAMILY: V8  → (Selected: V8_T1_T12, V8_T3_T4, V8_T4_T5, V8_T9_T12, V8_T7_T11)
+====================================================================================================
+
+possibly some type of moving average of two lookbacks.
+ V8_Ti_Tj=EMATj​(Vol)/EMATi​(Vol)​
+
+
+6.1  V8_T1_T12 — Sparse micro-spike feature
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.0027, std = 0.0201, skew = 37.0667, kurt = 1671.9617, POT = 0.0630
+CORRELATION:
+  Pearson = -0.00196, Spearman = -0.0274, Kendall = -0.0163, MI = 0.0117
+  Best Lag = 0, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • Spike counts/hour highly zero-inflated.
+  • ZIP model fit: λ=0.12, π₀≈0.85.
+  • HMM(2): [flat, micro-active] with P=[[0.96,0.04],[0.06,0.94]].
+ROLE:
+  • λ_t proxy for micro-activity intensity.
+
+6.2  V8_T3_T4 — High-frequency mean-reverting noise
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.5013, std = 0.1529, skew = 0.064, kurt = 0.316, POT = 0.9601
+CORRELATION:
+  Pearson = -0.00033, Spearman = -0.00004, Kendall = +0.0018, MI = 0.0028
+  Best Lag = 0, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • AR(1): φ₁≈-0.12, σ²≈0.02; ACF cuts after lag 1.
+ROLE:
+  • σ_t proxy (micro-turbulence).
+
+6.3  V8_T4_T5 — Moderate regime-switch behavior
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.6673, std = 0.1363, skew = -0.7494, kurt = 1.4064, POT = 1.0761
+CORRELATION:
+  Pearson = -0.00050, MI = 0.0059, Granger→Price = NO
+MODEL & DIAGNOSTICS:
+  • HMM(2): state means ≈ [0.59, 0.75]; P=[[0.92,0.08],[0.15,0.85]].
+  • Average duration: 25 samples/state.
+ROLE:
+  • λ_t proxy (moderate switching).
+
+6.4  V8_T9_T12 — Step drops + slow recovery
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.3028, std = 0.1768, skew = 2.7196, kurt = 7.7708, POT = 0.8330
+CORRELATION:
+  Pearson = -0.0145, Spearman = -0.0208, Kendall = -0.0239, MI = 0.0684
+  Best Lag = -10, Granger→Price = YES
+MODEL & DIAGNOSTICS:
+  • HMM(2) best by BIC.
+  • Kalman validation: AR(1)-like level, residual variance small.
+ROLE:
+  • λ_t proxy with mean-reversion flavor.
+
+6.5  V8_T7_T11 — Smooth structural trend with occasional jumps
+----------------------------------------------------------------------------------------------------
+BASIC STATS:
+  mean = 0.1917, std = 0.1304, skew = 4.0661, kurt = 20.8190, POT = 0.5829
+CORRELATION:
+  Pearson = -0.0068, Spearman = -0.0135, Kendall = -0.0040, MI = 0.0466
+  Best Lag = -10, Granger→Price = YES
+MODEL & DIAGNOSTICS:
+  • Kalman Local-Level: Q/R≈0.05; smooth drift visible.
+  • Occasional discrete jumps captured by HMM overlay.
+ROLE:
+  • μ_t proxy (low-frequency structural drift).
+
+====================================================================================================
+AGGREGATE INSIGHTS
+====================================================================================================
+
+1) Information Diversity
+   • Drift (μ_t): V2_T8, V8_T7_T11 (+ V2_T4 short-horizon)
+   • Volatility (σ_t): V3_T7, V3_T12, V5, V8_T3_T4, V4_T2
+   • Switching (λ_t): V2_T10, V8_T4_T5, V8_T9_T12, V1_T4, V8_T1_T12
+
+2) Regime Coverage
+   • Early micro-activity (V8_T1_T12), mid-session regime shifts (V2_T10, V8_T4_T5),
+     and structural drift (V2_T8, V8_T7_T11) → robust coverage across the session.
+
+3) Redundancy Control
+   • Within-family redundancy minimized (one per horizon/type).
+   • Cross-family orthogonality retained (V3/V4/V5 complement V2/V8).
+
+4) Practical Use
+   • Combine μ_t (V2_T8/V8_T7_T11) with σ_t (V3_T7/V5) and λ_t (V2_T10/V8_T9_T12)
+     for adaptive direction, risk, and switching intensity modeling.
+
+----------------------------------------------------------------------------------------------------
+MODEL–PARAMETER CHECKLIST (WHAT TO ESTIMATE & LOG)
+----------------------------------------------------------------------------------------------------
+• ARIMA(1,0,1): φ1, θ1, σ², AIC/BIC → (V2_T4, validation for V2_T8/V8_T9_T12)
+• Kalman (Local Level/Trend): Q, R, Q/R, avg K_t → (V2_T8, V8_T7_T11)
+• HMM(2–3): state means/vars, transition P, durations, log-likelihood, BIC → (V2_T10, V8_T4_T5, V8_T9_T12)
+• GARCH(1,1)/EGARCH: ω, α, β, α+β, (γ) → (V3_T7, V3_T12, V5)
+• Hawkes (exp kernel): μ, α, β, branching ratio n=α/β → (V5, optional V3_T12)
+• EVT/GPD (POT): ξ, σ, threshold u, exceedance rate → (V1_T4; optional V3_T12)
+• OU/AR(1): θ, μ, σ  or  φ1, σ²  → (V8_T3_T4, V4_T2)
+
+----------------------------------------------------------------------------------------------------
+PLOTS RECOMMENDED
+----------------------------------------------------------------------------------------------------
+• Raw + rolling mean/std (window ≈ 300)
+• ACF/PACF up to lag 50
+• HMM state overlay on feature and price
+• Kalman smoothed level vs observed (with residuals)
+
+----------------------------------------------------------------------------------------------------
+END OF REPORT
+----------------------------------------------------------------------------------------------------

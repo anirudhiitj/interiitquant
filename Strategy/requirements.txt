@@ -1,0 +1,5 @@
+pandas==2.3.3
+numpy==2.2.6
+dask-cudf-cu12==25.10.0
+pykalman==0.10.2
+numba==0.61.2

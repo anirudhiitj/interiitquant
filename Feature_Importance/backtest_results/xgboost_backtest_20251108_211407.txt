@@ -1,0 +1,18 @@
+XGBOOST BACKTEST RESULTS
+================================================================================
+
+Model: ./xgboost_models/model_TB_t0.30_l1200_20251108_073322.json
+Label: TB_t0.30_l1200
+Take Profit/Stop Loss: ±0.3
+Max Hold: 1200s
+Min Gap Between Signals: 15s
+Days: 0-278 (279 days total)
+
+Signal Statistics:
+   Long entries:  420
+   Short entries: 420
+   Total bars:    6,260,460
+   Signal freq:   0.013%
+
+Backtest Results:
+{'Initial Capital': 100000, 'Final Capital': np.float64(201393.12773425816), 'Total PnL': np.float64(101393.12773425816), 'Penalty Counts': 0, 'Total Returns': np.float64(101.39312773425816), 'CAGR': np.float64(88.20058596306266), 'Annualized Returns': np.float64(88.20058596306266), 'Overall Intraday Sharpe Ratio': np.float64(0.006847357979387575), 'Annualized Sharpe Ratio': np.float64(5.181400866676028), 'Calmar Ratio': np.float64(96.3356744902027), 'Maximum Drawdown': np.float64(-0.9155547664954857), 'No. of Days': 279, 'Winning Days': 115, 'Losing Days': 5, 'Best Day': 7, 'Worst Day': 198, 'Best Day PnL': np.float64(16121.727252735407), 'Worst Day PnL': np.float64(-471.32602802687325), 'Average Winning Day PnL': np.float64(888.0239446783723), 'Average Losing Day PnL': np.float64(-145.92518075093102), 'Total Trades Executed': np.float64(420.0), 'Average Hold Period (seconds)': np.float64(1312.825), 'Average Hold Period (minutes)': np.float64(21.88041666666667), 'Median Hold Period (seconds)': np.float64(915.5), 'Min Hold Period (seconds)': np.int64(2), 'Max Hold Period (seconds)': np.int64(11018), 'P25 Hold Period (seconds)': np.float64(214.75), 'P75 Hold Period (seconds)': np.float64(1200.0), 'P90 Hold Period (seconds)': np.float64(3056.6000000000004), 'P95 Hold Period (seconds)': np.float64(5563.299999999999)}
